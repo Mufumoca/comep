@@ -1,0 +1,1106 @@
+{
+  "scienceworld": {
+    "kind": "benchmark_grid_report",
+    "protocol_version": "v2.2-revised",
+    "shared_request_cache": true,
+    "stage": "stage4-ablations",
+    "env_name": "scienceworld",
+    "split": "test",
+    "episodes_per_seed": 50,
+    "seeds": [
+      0,
+      1
+    ],
+    "methods": {
+      "comep": {
+        "seeds": 2,
+        "total_episodes": 100,
+        "per_seed_sr": [
+          0.62,
+          0.5
+        ],
+        "per_seed_late_sr": [
+          0.76,
+          0.56
+        ],
+        "mean_sr": 0.56,
+        "std_sr": 0.0849,
+        "ci95_sr": [
+          0.46,
+          0.65
+        ],
+        "mean_late_sr": 0.66,
+        "mean_retrieval_tokens": 72.58,
+        "total_prompt_tokens": 2802030,
+        "total_completion_tokens": 42993,
+        "total_provider_tokens": 2845023,
+        "provider_reported_prompt_tokens": 2802030,
+        "provider_reported_completion_tokens": 42993,
+        "http_requests": 2071,
+        "cache_hits": 0,
+        "usage_complete": true,
+        "http_usage_complete": false,
+        "manager_llm_calls": 0,
+        "distillation_llm_calls": 56,
+        "action_format_retry_calls": 0,
+        "distillation_format_retry_calls": 0,
+        "trigger_counts": {
+          "episodes_routed": 100,
+          "hard_conflict_blocked_episodes": 0,
+          "early_stop_trimmed_episodes": 7,
+          "early_stop_loop_break_episodes": 15,
+          "selected_pair_cold_ucb_episodes": 24,
+          "selected_pair_second_chance_ucb_episodes": 3,
+          "selected_pair_confirmation_episodes": 52,
+          "selected_pair_random_explore_episodes": 3,
+          "warmup_gate_blocked_episodes": 0,
+          "prune_evictions": 40,
+          "coalition_prune_decision_changes": 16,
+          "eval_hard_conflict_blocks": 0,
+          "eval_pair_ucb_cold_calls": 756,
+          "eval_pair_ucb_second_chance_calls": 286,
+          "eval_pair_confirmation_calls": 735,
+          "eval_warmup_gate_blocks": 0,
+          "eval_coalition_prune_pos_items": 364,
+          "eval_coalition_prune_neg_items": 116,
+          "eval_coalition_prune_blame_guard_items": 84
+        },
+        "total_cost_usd": 0.8922,
+        "provider_reported_cost_usd": null,
+        "per_episode_cost_usd": 0.008922
+      },
+      "comep-warmup-gate": {
+        "seeds": 2,
+        "total_episodes": 100,
+        "per_seed_sr": [
+          0.66,
+          0.5
+        ],
+        "per_seed_late_sr": [
+          0.76,
+          0.52
+        ],
+        "mean_sr": 0.58,
+        "std_sr": 0.1131,
+        "ci95_sr": [
+          0.48,
+          0.67
+        ],
+        "mean_late_sr": 0.64,
+        "mean_retrieval_tokens": 74.64,
+        "total_prompt_tokens": 2806915,
+        "total_completion_tokens": 42624,
+        "total_provider_tokens": 2849539,
+        "provider_reported_prompt_tokens": 2062235,
+        "provider_reported_completion_tokens": 31482,
+        "http_requests": 1502,
+        "cache_hits": 580,
+        "usage_complete": true,
+        "http_usage_complete": false,
+        "manager_llm_calls": 0,
+        "distillation_llm_calls": 58,
+        "action_format_retry_calls": 0,
+        "distillation_format_retry_calls": 0,
+        "trigger_counts": {
+          "episodes_routed": 100,
+          "hard_conflict_blocked_episodes": 0,
+          "early_stop_trimmed_episodes": 3,
+          "early_stop_loop_break_episodes": 18,
+          "selected_pair_cold_ucb_episodes": 0,
+          "selected_pair_second_chance_ucb_episodes": 0,
+          "selected_pair_confirmation_episodes": 61,
+          "selected_pair_random_explore_episodes": 0,
+          "warmup_gate_blocked_episodes": 76,
+          "prune_evictions": 45,
+          "coalition_prune_decision_changes": 25,
+          "eval_hard_conflict_blocks": 0,
+          "eval_pair_ucb_cold_calls": 168,
+          "eval_pair_ucb_second_chance_calls": 50,
+          "eval_pair_confirmation_calls": 889,
+          "eval_warmup_gate_blocks": 820,
+          "eval_coalition_prune_pos_items": 555,
+          "eval_coalition_prune_neg_items": 187,
+          "eval_coalition_prune_blame_guard_items": 89
+        },
+        "total_cost_usd": 0.8932,
+        "provider_reported_cost_usd": null,
+        "per_episode_cost_usd": 0.008932
+      },
+      "additive": {
+        "seeds": 2,
+        "total_episodes": 100,
+        "per_seed_sr": [
+          0.54,
+          0.5
+        ],
+        "per_seed_late_sr": [
+          0.52,
+          0.56
+        ],
+        "mean_sr": 0.52,
+        "std_sr": 0.0283,
+        "ci95_sr": [
+          0.42,
+          0.62
+        ],
+        "mean_late_sr": 0.54,
+        "mean_retrieval_tokens": 71.31,
+        "total_prompt_tokens": 2611183,
+        "total_completion_tokens": 40218,
+        "total_provider_tokens": 2651401,
+        "provider_reported_prompt_tokens": 2093788,
+        "provider_reported_completion_tokens": 32831,
+        "http_requests": 1546,
+        "cache_hits": 399,
+        "usage_complete": true,
+        "http_usage_complete": false,
+        "manager_llm_calls": 0,
+        "distillation_llm_calls": 52,
+        "action_format_retry_calls": 0,
+        "distillation_format_retry_calls": 0,
+        "trigger_counts": {
+          "episodes_routed": 100,
+          "hard_conflict_blocked_episodes": 0,
+          "early_stop_trimmed_episodes": 11,
+          "early_stop_loop_break_episodes": 12,
+          "selected_pair_cold_ucb_episodes": 0,
+          "selected_pair_second_chance_ucb_episodes": 0,
+          "selected_pair_confirmation_episodes": 0,
+          "selected_pair_random_explore_episodes": 0,
+          "warmup_gate_blocked_episodes": 0,
+          "prune_evictions": 35,
+          "coalition_prune_decision_changes": 0,
+          "eval_hard_conflict_blocks": 0,
+          "eval_pair_ucb_cold_calls": 0,
+          "eval_pair_ucb_second_chance_calls": 0,
+          "eval_pair_confirmation_calls": 0,
+          "eval_warmup_gate_blocks": 0,
+          "eval_coalition_prune_pos_items": 0,
+          "eval_coalition_prune_neg_items": 0,
+          "eval_coalition_prune_blame_guard_items": 0
+        },
+        "total_cost_usd": 0.8316,
+        "provider_reported_cost_usd": null,
+        "per_episode_cost_usd": 0.008316
+      },
+      "comep-no-hard-conflicts": {
+        "seeds": 2,
+        "total_episodes": 100,
+        "per_seed_sr": [
+          0.62,
+          0.5
+        ],
+        "per_seed_late_sr": [
+          0.76,
+          0.56
+        ],
+        "mean_sr": 0.56,
+        "std_sr": 0.0849,
+        "ci95_sr": [
+          0.46,
+          0.65
+        ],
+        "mean_late_sr": 0.66,
+        "mean_retrieval_tokens": 72.58,
+        "total_prompt_tokens": 2799883,
+        "total_completion_tokens": 42756,
+        "total_provider_tokens": 2842639,
+        "provider_reported_prompt_tokens": 81465,
+        "provider_reported_completion_tokens": 1114,
+        "http_requests": 63,
+        "cache_hits": 2006,
+        "usage_complete": true,
+        "http_usage_complete": true,
+        "manager_llm_calls": 0,
+        "distillation_llm_calls": 56,
+        "action_format_retry_calls": 0,
+        "distillation_format_retry_calls": 0,
+        "trigger_counts": {
+          "episodes_routed": 100,
+          "hard_conflict_blocked_episodes": 0,
+          "early_stop_trimmed_episodes": 7,
+          "early_stop_loop_break_episodes": 15,
+          "selected_pair_cold_ucb_episodes": 24,
+          "selected_pair_second_chance_ucb_episodes": 3,
+          "selected_pair_confirmation_episodes": 52,
+          "selected_pair_random_explore_episodes": 3,
+          "warmup_gate_blocked_episodes": 0,
+          "prune_evictions": 40,
+          "coalition_prune_decision_changes": 16,
+          "eval_hard_conflict_blocks": 0,
+          "eval_pair_ucb_cold_calls": 756,
+          "eval_pair_ucb_second_chance_calls": 286,
+          "eval_pair_confirmation_calls": 735,
+          "eval_warmup_gate_blocks": 0,
+          "eval_coalition_prune_pos_items": 364,
+          "eval_coalition_prune_neg_items": 116,
+          "eval_coalition_prune_blame_guard_items": 84
+        },
+        "total_cost_usd": 0.8913,
+        "provider_reported_cost_usd": 0.0258,
+        "per_episode_cost_usd": 0.008913
+      },
+      "comep-no-pair-optimism": {
+        "seeds": 2,
+        "total_episodes": 100,
+        "per_seed_sr": [
+          0.58,
+          0.5
+        ],
+        "per_seed_late_sr": [
+          0.64,
+          0.56
+        ],
+        "mean_sr": 0.54,
+        "std_sr": 0.0566,
+        "ci95_sr": [
+          0.44,
+          0.63
+        ],
+        "mean_late_sr": 0.6,
+        "mean_retrieval_tokens": 72.22,
+        "total_prompt_tokens": 2889511,
+        "total_completion_tokens": 45762,
+        "total_provider_tokens": 2935273,
+        "provider_reported_prompt_tokens": 900602,
+        "provider_reported_completion_tokens": 15103,
+        "http_requests": 637,
+        "cache_hits": 1474,
+        "usage_complete": true,
+        "http_usage_complete": true,
+        "manager_llm_calls": 0,
+        "distillation_llm_calls": 54,
+        "action_format_retry_calls": 2,
+        "distillation_format_retry_calls": 0,
+        "trigger_counts": {
+          "episodes_routed": 100,
+          "hard_conflict_blocked_episodes": 0,
+          "early_stop_trimmed_episodes": 6,
+          "early_stop_loop_break_episodes": 19,
+          "selected_pair_cold_ucb_episodes": 0,
+          "selected_pair_second_chance_ucb_episodes": 0,
+          "selected_pair_confirmation_episodes": 54,
+          "selected_pair_random_explore_episodes": 4,
+          "warmup_gate_blocked_episodes": 0,
+          "prune_evictions": 39,
+          "coalition_prune_decision_changes": 19,
+          "eval_hard_conflict_blocks": 0,
+          "eval_pair_ucb_cold_calls": 0,
+          "eval_pair_ucb_second_chance_calls": 0,
+          "eval_pair_confirmation_calls": 679,
+          "eval_warmup_gate_blocks": 0,
+          "eval_coalition_prune_pos_items": 352,
+          "eval_coalition_prune_neg_items": 125,
+          "eval_coalition_prune_blame_guard_items": 93
+        },
+        "total_cost_usd": 0.9218,
+        "provider_reported_cost_usd": 0.2883,
+        "per_episode_cost_usd": 0.009218
+      },
+      "comep-no-early-stop": {
+        "seeds": 2,
+        "total_episodes": 100,
+        "per_seed_sr": [
+          0.6,
+          0.52
+        ],
+        "per_seed_late_sr": [
+          0.72,
+          0.6
+        ],
+        "mean_sr": 0.56,
+        "std_sr": 0.0566,
+        "ci95_sr": [
+          0.46,
+          0.65
+        ],
+        "mean_late_sr": 0.66,
+        "mean_retrieval_tokens": 80.6,
+        "total_prompt_tokens": 2884223,
+        "total_completion_tokens": 44156,
+        "total_provider_tokens": 2928379,
+        "provider_reported_prompt_tokens": 1855967,
+        "provider_reported_completion_tokens": 29314,
+        "http_requests": 1354,
+        "cache_hits": 764,
+        "usage_complete": true,
+        "http_usage_complete": true,
+        "manager_llm_calls": 0,
+        "distillation_llm_calls": 56,
+        "action_format_retry_calls": 1,
+        "distillation_format_retry_calls": 0,
+        "trigger_counts": {
+          "episodes_routed": 100,
+          "hard_conflict_blocked_episodes": 0,
+          "early_stop_trimmed_episodes": 0,
+          "early_stop_loop_break_episodes": 0,
+          "selected_pair_cold_ucb_episodes": 24,
+          "selected_pair_second_chance_ucb_episodes": 6,
+          "selected_pair_confirmation_episodes": 61,
+          "selected_pair_random_explore_episodes": 3,
+          "warmup_gate_blocked_episodes": 0,
+          "prune_evictions": 39,
+          "coalition_prune_decision_changes": 11,
+          "eval_hard_conflict_blocks": 0,
+          "eval_pair_ucb_cold_calls": 716,
+          "eval_pair_ucb_second_chance_calls": 386,
+          "eval_pair_confirmation_calls": 878,
+          "eval_warmup_gate_blocks": 0,
+          "eval_coalition_prune_pos_items": 392,
+          "eval_coalition_prune_neg_items": 116,
+          "eval_coalition_prune_blame_guard_items": 72
+        },
+        "total_cost_usd": 0.9183,
+        "provider_reported_cost_usd": 0.592,
+        "per_episode_cost_usd": 0.009183
+      },
+      "comep-no-coalition-pruning": {
+        "seeds": 2,
+        "total_episodes": 100,
+        "per_seed_sr": [
+          0.56,
+          0.52
+        ],
+        "per_seed_late_sr": [
+          0.6,
+          0.56
+        ],
+        "mean_sr": 0.54,
+        "std_sr": 0.0283,
+        "ci95_sr": [
+          0.44,
+          0.64
+        ],
+        "mean_late_sr": 0.58,
+        "mean_retrieval_tokens": 76.02,
+        "total_prompt_tokens": 2751213,
+        "total_completion_tokens": 39918,
+        "total_provider_tokens": 2791131,
+        "provider_reported_prompt_tokens": 1922033,
+        "provider_reported_completion_tokens": 27497,
+        "http_requests": 1386,
+        "cache_hits": 647,
+        "usage_complete": true,
+        "http_usage_complete": true,
+        "manager_llm_calls": 0,
+        "distillation_llm_calls": 54,
+        "action_format_retry_calls": 0,
+        "distillation_format_retry_calls": 0,
+        "trigger_counts": {
+          "episodes_routed": 100,
+          "hard_conflict_blocked_episodes": 0,
+          "early_stop_trimmed_episodes": 4,
+          "early_stop_loop_break_episodes": 10,
+          "selected_pair_cold_ucb_episodes": 25,
+          "selected_pair_second_chance_ucb_episodes": 3,
+          "selected_pair_confirmation_episodes": 57,
+          "selected_pair_random_explore_episodes": 4,
+          "warmup_gate_blocked_episodes": 0,
+          "prune_evictions": 38,
+          "coalition_prune_decision_changes": 0,
+          "eval_hard_conflict_blocks": 0,
+          "eval_pair_ucb_cold_calls": 720,
+          "eval_pair_ucb_second_chance_calls": 360,
+          "eval_pair_confirmation_calls": 870,
+          "eval_warmup_gate_blocks": 0,
+          "eval_coalition_prune_pos_items": 0,
+          "eval_coalition_prune_neg_items": 0,
+          "eval_coalition_prune_blame_guard_items": 0
+        },
+        "total_cost_usd": 0.8733,
+        "provider_reported_cost_usd": 0.6096,
+        "per_episode_cost_usd": 0.008733
+      },
+      "comep-v2-online-sgd": {
+        "seeds": 2,
+        "total_episodes": 100,
+        "per_seed_sr": [
+          0.56,
+          0.5
+        ],
+        "per_seed_late_sr": [
+          0.6,
+          0.6
+        ],
+        "mean_sr": 0.53,
+        "std_sr": 0.0424,
+        "ci95_sr": [
+          0.43,
+          0.6202
+        ],
+        "mean_late_sr": 0.6,
+        "mean_retrieval_tokens": 72.94,
+        "total_prompt_tokens": 2587835,
+        "total_completion_tokens": 40024,
+        "total_provider_tokens": 2627859,
+        "provider_reported_prompt_tokens": 1785156,
+        "provider_reported_completion_tokens": 27267,
+        "http_requests": 1317,
+        "cache_hits": 645,
+        "usage_complete": true,
+        "http_usage_complete": false,
+        "manager_llm_calls": 0,
+        "distillation_llm_calls": 53,
+        "action_format_retry_calls": 2,
+        "distillation_format_retry_calls": 0,
+        "trigger_counts": {
+          "episodes_routed": 100,
+          "hard_conflict_blocked_episodes": 0,
+          "early_stop_trimmed_episodes": 10,
+          "early_stop_loop_break_episodes": 11,
+          "selected_pair_cold_ucb_episodes": 33,
+          "selected_pair_second_chance_ucb_episodes": 11,
+          "selected_pair_confirmation_episodes": 33,
+          "selected_pair_random_explore_episodes": 4,
+          "warmup_gate_blocked_episodes": 0,
+          "prune_evictions": 40,
+          "coalition_prune_decision_changes": 8,
+          "eval_hard_conflict_blocks": 0,
+          "eval_pair_ucb_cold_calls": 764,
+          "eval_pair_ucb_second_chance_calls": 1484,
+          "eval_pair_confirmation_calls": 378,
+          "eval_warmup_gate_blocks": 0,
+          "eval_coalition_prune_pos_items": 383,
+          "eval_coalition_prune_neg_items": 396,
+          "eval_coalition_prune_blame_guard_items": 0
+        },
+        "total_cost_usd": 0.8244,
+        "provider_reported_cost_usd": null,
+        "per_episode_cost_usd": 0.008244
+      }
+    },
+    "paired_vs_comep": {
+      "comep_vs_comep-warmup-gate": {
+        "n_paired": 100,
+        "diff": -0.02,
+        "ci95": [
+          -0.1,
+          0.06
+        ],
+        "comep_wins_discordant": 7,
+        "baseline_wins_discordant": 9,
+        "mcnemar_p": 0.803619
+      },
+      "comep_vs_additive": {
+        "n_paired": 100,
+        "diff": 0.04,
+        "ci95": [
+          -0.04,
+          0.12
+        ],
+        "comep_wins_discordant": 11,
+        "baseline_wins_discordant": 7,
+        "mcnemar_p": 0.480682
+      },
+      "comep_vs_comep-no-hard-conflicts": {
+        "n_paired": 100,
+        "diff": 0.0,
+        "ci95": [
+          0.0,
+          0.0
+        ],
+        "comep_wins_discordant": 0,
+        "baseline_wins_discordant": 0,
+        "mcnemar_p": 1.0
+      },
+      "comep_vs_comep-no-pair-optimism": {
+        "n_paired": 100,
+        "diff": 0.02,
+        "ci95": [
+          -0.03,
+          0.07
+        ],
+        "comep_wins_discordant": 4,
+        "baseline_wins_discordant": 2,
+        "mcnemar_p": 0.6875
+      },
+      "comep_vs_comep-no-early-stop": {
+        "n_paired": 100,
+        "diff": 0.0,
+        "ci95": [
+          -0.05,
+          0.06
+        ],
+        "comep_wins_discordant": 4,
+        "baseline_wins_discordant": 4,
+        "mcnemar_p": 1.0
+      },
+      "comep_vs_comep-no-coalition-pruning": {
+        "n_paired": 100,
+        "diff": 0.02,
+        "ci95": [
+          -0.04,
+          0.08
+        ],
+        "comep_wins_discordant": 6,
+        "baseline_wins_discordant": 4,
+        "mcnemar_p": 0.753906
+      },
+      "comep_vs_comep-v2-online-sgd": {
+        "n_paired": 100,
+        "diff": 0.03,
+        "ci95": [
+          -0.05,
+          0.11
+        ],
+        "comep_wins_discordant": 9,
+        "baseline_wins_discordant": 6,
+        "mcnemar_p": 0.607239
+      }
+    },
+    "total_grid_cost_usd": 7.0461,
+    "total_provider_reported_cost_usd": null
+  },
+  "alfworld": {
+    "kind": "benchmark_grid_report",
+    "protocol_version": "v2.2-revised",
+    "shared_request_cache": true,
+    "stage": "stage4-ablations",
+    "env_name": "alfworld",
+    "split": "eval_out_of_distribution",
+    "episodes_per_seed": 50,
+    "seeds": [
+      0,
+      1
+    ],
+    "methods": {
+      "comep": {
+        "seeds": 2,
+        "total_episodes": 100,
+        "per_seed_sr": [
+          0.84,
+          0.84
+        ],
+        "per_seed_late_sr": [
+          0.88,
+          0.88
+        ],
+        "mean_sr": 0.84,
+        "std_sr": 0.0,
+        "ci95_sr": [
+          0.77,
+          0.91
+        ],
+        "mean_late_sr": 0.88,
+        "mean_retrieval_tokens": 75.97,
+        "total_prompt_tokens": 1097062,
+        "total_completion_tokens": 28895,
+        "total_provider_tokens": 1125957,
+        "provider_reported_prompt_tokens": 1097062,
+        "provider_reported_completion_tokens": 28895,
+        "http_requests": 1416,
+        "cache_hits": 8,
+        "usage_complete": true,
+        "http_usage_complete": false,
+        "manager_llm_calls": 0,
+        "distillation_llm_calls": 84,
+        "action_format_retry_calls": 0,
+        "distillation_format_retry_calls": 0,
+        "trigger_counts": {
+          "episodes_routed": 100,
+          "hard_conflict_blocked_episodes": 0,
+          "early_stop_trimmed_episodes": 2,
+          "early_stop_loop_break_episodes": 7,
+          "selected_pair_cold_ucb_episodes": 18,
+          "selected_pair_second_chance_ucb_episodes": 0,
+          "selected_pair_confirmation_episodes": 68,
+          "selected_pair_random_explore_episodes": 4,
+          "warmup_gate_blocked_episodes": 0,
+          "prune_evictions": 70,
+          "coalition_prune_decision_changes": 58,
+          "eval_hard_conflict_blocks": 0,
+          "eval_pair_ucb_cold_calls": 1102,
+          "eval_pair_ucb_second_chance_calls": 130,
+          "eval_pair_confirmation_calls": 1453,
+          "eval_warmup_gate_blocks": 0,
+          "eval_coalition_prune_pos_items": 1080,
+          "eval_coalition_prune_neg_items": 229,
+          "eval_coalition_prune_blame_guard_items": 186
+        },
+        "total_cost_usd": 0.3638,
+        "provider_reported_cost_usd": null,
+        "per_episode_cost_usd": 0.003638
+      },
+      "comep-warmup-gate": {
+        "seeds": 2,
+        "total_episodes": 100,
+        "per_seed_sr": [
+          0.9,
+          0.84
+        ],
+        "per_seed_late_sr": [
+          0.92,
+          0.84
+        ],
+        "mean_sr": 0.87,
+        "std_sr": 0.0424,
+        "ci95_sr": [
+          0.8,
+          0.93
+        ],
+        "mean_late_sr": 0.88,
+        "mean_retrieval_tokens": 77.24,
+        "total_prompt_tokens": 1019110,
+        "total_completion_tokens": 26987,
+        "total_provider_tokens": 1046097,
+        "provider_reported_prompt_tokens": 640182,
+        "provider_reported_completion_tokens": 16724,
+        "http_requests": 802,
+        "cache_hits": 531,
+        "usage_complete": true,
+        "http_usage_complete": false,
+        "manager_llm_calls": 0,
+        "distillation_llm_calls": 87,
+        "action_format_retry_calls": 0,
+        "distillation_format_retry_calls": 0,
+        "trigger_counts": {
+          "episodes_routed": 100,
+          "hard_conflict_blocked_episodes": 0,
+          "early_stop_trimmed_episodes": 0,
+          "early_stop_loop_break_episodes": 7,
+          "selected_pair_cold_ucb_episodes": 1,
+          "selected_pair_second_chance_ucb_episodes": 1,
+          "selected_pair_confirmation_episodes": 68,
+          "selected_pair_random_explore_episodes": 1,
+          "warmup_gate_blocked_episodes": 88,
+          "prune_evictions": 71,
+          "coalition_prune_decision_changes": 30,
+          "eval_hard_conflict_blocks": 0,
+          "eval_pair_ucb_cold_calls": 234,
+          "eval_pair_ucb_second_chance_calls": 70,
+          "eval_pair_confirmation_calls": 1494,
+          "eval_warmup_gate_blocks": 1070,
+          "eval_coalition_prune_pos_items": 1112,
+          "eval_coalition_prune_neg_items": 236,
+          "eval_coalition_prune_blame_guard_items": 94
+        },
+        "total_cost_usd": 0.3381,
+        "provider_reported_cost_usd": null,
+        "per_episode_cost_usd": 0.003381
+      },
+      "additive": {
+        "seeds": 2,
+        "total_episodes": 100,
+        "per_seed_sr": [
+          0.8,
+          0.92
+        ],
+        "per_seed_late_sr": [
+          0.8,
+          0.92
+        ],
+        "mean_sr": 0.86,
+        "std_sr": 0.0849,
+        "ci95_sr": [
+          0.79,
+          0.92
+        ],
+        "mean_late_sr": 0.86,
+        "mean_retrieval_tokens": 74.71,
+        "total_prompt_tokens": 1005157,
+        "total_completion_tokens": 27568,
+        "total_provider_tokens": 1032725,
+        "provider_reported_prompt_tokens": 765626,
+        "provider_reported_completion_tokens": 20296,
+        "http_requests": 958,
+        "cache_hits": 350,
+        "usage_complete": true,
+        "http_usage_complete": false,
+        "manager_llm_calls": 0,
+        "distillation_llm_calls": 86,
+        "action_format_retry_calls": 0,
+        "distillation_format_retry_calls": 0,
+        "trigger_counts": {
+          "episodes_routed": 100,
+          "hard_conflict_blocked_episodes": 0,
+          "early_stop_trimmed_episodes": 3,
+          "early_stop_loop_break_episodes": 10,
+          "selected_pair_cold_ucb_episodes": 0,
+          "selected_pair_second_chance_ucb_episodes": 0,
+          "selected_pair_confirmation_episodes": 0,
+          "selected_pair_random_explore_episodes": 0,
+          "warmup_gate_blocked_episodes": 0,
+          "prune_evictions": 73,
+          "coalition_prune_decision_changes": 0,
+          "eval_hard_conflict_blocks": 0,
+          "eval_pair_ucb_cold_calls": 0,
+          "eval_pair_ucb_second_chance_calls": 0,
+          "eval_pair_confirmation_calls": 0,
+          "eval_warmup_gate_blocks": 0,
+          "eval_coalition_prune_pos_items": 0,
+          "eval_coalition_prune_neg_items": 0,
+          "eval_coalition_prune_blame_guard_items": 0
+        },
+        "total_cost_usd": 0.3346,
+        "provider_reported_cost_usd": null,
+        "per_episode_cost_usd": 0.003346
+      },
+      "comep-no-hard-conflicts": {
+        "seeds": 2,
+        "total_episodes": 100,
+        "per_seed_sr": [
+          0.84,
+          0.84
+        ],
+        "per_seed_late_sr": [
+          0.88,
+          0.88
+        ],
+        "mean_sr": 0.84,
+        "std_sr": 0.0,
+        "ci95_sr": [
+          0.77,
+          0.91
+        ],
+        "mean_late_sr": 0.88,
+        "mean_retrieval_tokens": 75.97,
+        "total_prompt_tokens": 1097062,
+        "total_completion_tokens": 28895,
+        "total_provider_tokens": 1125957,
+        "provider_reported_prompt_tokens": 0,
+        "provider_reported_completion_tokens": 0,
+        "http_requests": 0,
+        "cache_hits": 1409,
+        "usage_complete": true,
+        "http_usage_complete": true,
+        "manager_llm_calls": 0,
+        "distillation_llm_calls": 84,
+        "action_format_retry_calls": 0,
+        "distillation_format_retry_calls": 0,
+        "trigger_counts": {
+          "episodes_routed": 100,
+          "hard_conflict_blocked_episodes": 0,
+          "early_stop_trimmed_episodes": 2,
+          "early_stop_loop_break_episodes": 7,
+          "selected_pair_cold_ucb_episodes": 18,
+          "selected_pair_second_chance_ucb_episodes": 0,
+          "selected_pair_confirmation_episodes": 68,
+          "selected_pair_random_explore_episodes": 4,
+          "warmup_gate_blocked_episodes": 0,
+          "prune_evictions": 70,
+          "coalition_prune_decision_changes": 58,
+          "eval_hard_conflict_blocks": 0,
+          "eval_pair_ucb_cold_calls": 1102,
+          "eval_pair_ucb_second_chance_calls": 130,
+          "eval_pair_confirmation_calls": 1453,
+          "eval_warmup_gate_blocks": 0,
+          "eval_coalition_prune_pos_items": 1080,
+          "eval_coalition_prune_neg_items": 229,
+          "eval_coalition_prune_blame_guard_items": 186
+        },
+        "total_cost_usd": 0.3638,
+        "provider_reported_cost_usd": 0.0,
+        "per_episode_cost_usd": 0.003638
+      },
+      "comep-no-pair-optimism": {
+        "seeds": 2,
+        "total_episodes": 100,
+        "per_seed_sr": [
+          0.88,
+          0.84
+        ],
+        "per_seed_late_sr": [
+          0.92,
+          0.88
+        ],
+        "mean_sr": 0.86,
+        "std_sr": 0.0283,
+        "ci95_sr": [
+          0.79,
+          0.92
+        ],
+        "mean_late_sr": 0.9,
+        "mean_retrieval_tokens": 76.5,
+        "total_prompt_tokens": 1064116,
+        "total_completion_tokens": 28123,
+        "total_provider_tokens": 1092239,
+        "provider_reported_prompt_tokens": 295279,
+        "provider_reported_completion_tokens": 8258,
+        "http_requests": 370,
+        "cache_hits": 1005,
+        "usage_complete": true,
+        "http_usage_complete": true,
+        "manager_llm_calls": 0,
+        "distillation_llm_calls": 86,
+        "action_format_retry_calls": 0,
+        "distillation_format_retry_calls": 0,
+        "trigger_counts": {
+          "episodes_routed": 100,
+          "hard_conflict_blocked_episodes": 0,
+          "early_stop_trimmed_episodes": 1,
+          "early_stop_loop_break_episodes": 7,
+          "selected_pair_cold_ucb_episodes": 0,
+          "selected_pair_second_chance_ucb_episodes": 0,
+          "selected_pair_confirmation_episodes": 73,
+          "selected_pair_random_explore_episodes": 4,
+          "warmup_gate_blocked_episodes": 0,
+          "prune_evictions": 72,
+          "coalition_prune_decision_changes": 61,
+          "eval_hard_conflict_blocks": 0,
+          "eval_pair_ucb_cold_calls": 0,
+          "eval_pair_ucb_second_chance_calls": 0,
+          "eval_pair_confirmation_calls": 1393,
+          "eval_warmup_gate_blocks": 0,
+          "eval_coalition_prune_pos_items": 1098,
+          "eval_coalition_prune_neg_items": 270,
+          "eval_coalition_prune_blame_guard_items": 145
+        },
+        "total_cost_usd": 0.353,
+        "provider_reported_cost_usd": 0.0985,
+        "per_episode_cost_usd": 0.00353
+      },
+      "comep-no-early-stop": {
+        "seeds": 2,
+        "total_episodes": 100,
+        "per_seed_sr": [
+          0.86,
+          0.84
+        ],
+        "per_seed_late_sr": [
+          0.88,
+          0.88
+        ],
+        "mean_sr": 0.85,
+        "std_sr": 0.0141,
+        "ci95_sr": [
+          0.78,
+          0.92
+        ],
+        "mean_late_sr": 0.88,
+        "mean_retrieval_tokens": 79.01,
+        "total_prompt_tokens": 1061297,
+        "total_completion_tokens": 28039,
+        "total_provider_tokens": 1089336,
+        "provider_reported_prompt_tokens": 173277,
+        "provider_reported_completion_tokens": 4729,
+        "http_requests": 224,
+        "cache_hits": 1157,
+        "usage_complete": true,
+        "http_usage_complete": false,
+        "manager_llm_calls": 0,
+        "distillation_llm_calls": 85,
+        "action_format_retry_calls": 0,
+        "distillation_format_retry_calls": 0,
+        "trigger_counts": {
+          "episodes_routed": 100,
+          "hard_conflict_blocked_episodes": 0,
+          "early_stop_trimmed_episodes": 0,
+          "early_stop_loop_break_episodes": 0,
+          "selected_pair_cold_ucb_episodes": 17,
+          "selected_pair_second_chance_ucb_episodes": 1,
+          "selected_pair_confirmation_episodes": 70,
+          "selected_pair_random_explore_episodes": 4,
+          "warmup_gate_blocked_episodes": 0,
+          "prune_evictions": 71,
+          "coalition_prune_decision_changes": 56,
+          "eval_hard_conflict_blocks": 0,
+          "eval_pair_ucb_cold_calls": 1088,
+          "eval_pair_ucb_second_chance_calls": 192,
+          "eval_pair_confirmation_calls": 1450,
+          "eval_warmup_gate_blocks": 0,
+          "eval_coalition_prune_pos_items": 1083,
+          "eval_coalition_prune_neg_items": 185,
+          "eval_coalition_prune_blame_guard_items": 201
+        },
+        "total_cost_usd": 0.352,
+        "provider_reported_cost_usd": null,
+        "per_episode_cost_usd": 0.00352
+      },
+      "comep-no-coalition-pruning": {
+        "seeds": 2,
+        "total_episodes": 100,
+        "per_seed_sr": [
+          0.84,
+          0.88
+        ],
+        "per_seed_late_sr": [
+          0.84,
+          0.96
+        ],
+        "mean_sr": 0.86,
+        "std_sr": 0.0283,
+        "ci95_sr": [
+          0.79,
+          0.92
+        ],
+        "mean_late_sr": 0.9,
+        "mean_retrieval_tokens": 76.93,
+        "total_prompt_tokens": 1018375,
+        "total_completion_tokens": 26892,
+        "total_provider_tokens": 1045267,
+        "provider_reported_prompt_tokens": 306964,
+        "provider_reported_completion_tokens": 7638,
+        "http_requests": 386,
+        "cache_hits": 953,
+        "usage_complete": true,
+        "http_usage_complete": false,
+        "manager_llm_calls": 0,
+        "distillation_llm_calls": 86,
+        "action_format_retry_calls": 0,
+        "distillation_format_retry_calls": 0,
+        "trigger_counts": {
+          "episodes_routed": 100,
+          "hard_conflict_blocked_episodes": 0,
+          "early_stop_trimmed_episodes": 1,
+          "early_stop_loop_break_episodes": 6,
+          "selected_pair_cold_ucb_episodes": 17,
+          "selected_pair_second_chance_ucb_episodes": 0,
+          "selected_pair_confirmation_episodes": 72,
+          "selected_pair_random_explore_episodes": 4,
+          "warmup_gate_blocked_episodes": 0,
+          "prune_evictions": 73,
+          "coalition_prune_decision_changes": 0,
+          "eval_hard_conflict_blocks": 0,
+          "eval_pair_ucb_cold_calls": 1216,
+          "eval_pair_ucb_second_chance_calls": 216,
+          "eval_pair_confirmation_calls": 1426,
+          "eval_warmup_gate_blocks": 0,
+          "eval_coalition_prune_pos_items": 0,
+          "eval_coalition_prune_neg_items": 0,
+          "eval_coalition_prune_blame_guard_items": 0
+        },
+        "total_cost_usd": 0.3378,
+        "provider_reported_cost_usd": null,
+        "per_episode_cost_usd": 0.003378
+      },
+      "comep-v2-online-sgd": {
+        "seeds": 2,
+        "total_episodes": 100,
+        "per_seed_sr": [
+          0.88,
+          0.82
+        ],
+        "per_seed_late_sr": [
+          0.92,
+          0.88
+        ],
+        "mean_sr": 0.85,
+        "std_sr": 0.0424,
+        "ci95_sr": [
+          0.78,
+          0.92
+        ],
+        "mean_late_sr": 0.9,
+        "mean_retrieval_tokens": 76.9,
+        "total_prompt_tokens": 1014793,
+        "total_completion_tokens": 26762,
+        "total_provider_tokens": 1041555,
+        "provider_reported_prompt_tokens": 554869,
+        "provider_reported_completion_tokens": 14216,
+        "http_requests": 696,
+        "cache_hits": 624,
+        "usage_complete": true,
+        "http_usage_complete": false,
+        "manager_llm_calls": 0,
+        "distillation_llm_calls": 85,
+        "action_format_retry_calls": 0,
+        "distillation_format_retry_calls": 0,
+        "trigger_counts": {
+          "episodes_routed": 100,
+          "hard_conflict_blocked_episodes": 0,
+          "early_stop_trimmed_episodes": 2,
+          "early_stop_loop_break_episodes": 5,
+          "selected_pair_cold_ucb_episodes": 25,
+          "selected_pair_second_chance_ucb_episodes": 11,
+          "selected_pair_confirmation_episodes": 50,
+          "selected_pair_random_explore_episodes": 4,
+          "warmup_gate_blocked_episodes": 0,
+          "prune_evictions": 72,
+          "coalition_prune_decision_changes": 1,
+          "eval_hard_conflict_blocks": 0,
+          "eval_pair_ucb_cold_calls": 1442,
+          "eval_pair_ucb_second_chance_calls": 1262,
+          "eval_pair_confirmation_calls": 733,
+          "eval_warmup_gate_blocks": 0,
+          "eval_coalition_prune_pos_items": 1211,
+          "eval_coalition_prune_neg_items": 428,
+          "eval_coalition_prune_blame_guard_items": 0
+        },
+        "total_cost_usd": 0.3366,
+        "provider_reported_cost_usd": null,
+        "per_episode_cost_usd": 0.003366
+      }
+    },
+    "paired_vs_comep": {
+      "comep_vs_comep-warmup-gate": {
+        "n_paired": 100,
+        "diff": -0.03,
+        "ci95": [
+          -0.08,
+          0.02
+        ],
+        "comep_wins_discordant": 2,
+        "baseline_wins_discordant": 5,
+        "mcnemar_p": 0.453125
+      },
+      "comep_vs_additive": {
+        "n_paired": 100,
+        "diff": -0.02,
+        "ci95": [
+          -0.08,
+          0.03
+        ],
+        "comep_wins_discordant": 3,
+        "baseline_wins_discordant": 5,
+        "mcnemar_p": 0.726562
+      },
+      "comep_vs_comep-no-hard-conflicts": {
+        "n_paired": 100,
+        "diff": 0.0,
+        "ci95": [
+          0.0,
+          0.0
+        ],
+        "comep_wins_discordant": 0,
+        "baseline_wins_discordant": 0,
+        "mcnemar_p": 1.0
+      },
+      "comep_vs_comep-no-pair-optimism": {
+        "n_paired": 100,
+        "diff": -0.02,
+        "ci95": [
+          -0.06,
+          0.02
+        ],
+        "comep_wins_discordant": 1,
+        "baseline_wins_discordant": 3,
+        "mcnemar_p": 0.625
+      },
+      "comep_vs_comep-no-early-stop": {
+        "n_paired": 100,
+        "diff": -0.01,
+        "ci95": [
+          -0.05,
+          0.02
+        ],
+        "comep_wins_discordant": 1,
+        "baseline_wins_discordant": 2,
+        "mcnemar_p": 1.0
+      },
+      "comep_vs_comep-no-coalition-pruning": {
+        "n_paired": 100,
+        "diff": -0.02,
+        "ci95": [
+          -0.07,
+          0.03
+        ],
+        "comep_wins_discordant": 2,
+        "baseline_wins_discordant": 4,
+        "mcnemar_p": 0.6875
+      },
+      "comep_vs_comep-v2-online-sgd": {
+        "n_paired": 100,
+        "diff": -0.01,
+        "ci95": [
+          -0.05,
+          0.02
+        ],
+        "comep_wins_discordant": 1,
+        "baseline_wins_discordant": 2,
+        "mcnemar_p": 1.0
+      }
+    },
+    "total_grid_cost_usd": 2.7797,
+    "total_provider_reported_cost_usd": null
+  }
+}

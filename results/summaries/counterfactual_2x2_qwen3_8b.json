@@ -1,0 +1,162 @@
+{
+  "alfworld": [
+    {
+      "kind": "causal_4cell_verification",
+      "env_name": "alfworld",
+      "split": "eval_out_of_distribution",
+      "pair_kind": "positive_synergy",
+      "id_a": "alf-ws-03",
+      "id_b": "distilled-s0-e14",
+      "learned_s_ij": 0.1975,
+      "count": 5,
+      "co_wins": 4,
+      "selection_source": "posterior_s_ij",
+      "target_context": "alfworld:clean",
+      "rule_a": "To clean some object, hold it, go to sinkbasin 1, clean with sinkbasin 1, then move away.",
+      "rule_b": "For cleaning tasks, take item from countertop, go to sinkbasin, clean item, go to cabinet, open cabinet, move item to cabinet.",
+      "episodes_per_cell": 10,
+      "cell_rates": {
+        "none": 0.5,
+        "A": 0.6,
+        "B": 0.6,
+        "AB": 0.8
+      },
+      "causal_interaction_delta_AB": 0.1,
+      "ci95_delta_AB": [
+        -0.2,
+        0.4
+      ],
+      "cell_mean_scores": {
+        "none": 0.5,
+        "A": 0.6,
+        "B": 0.6,
+        "AB": 0.8
+      },
+      "score_interaction_delta_AB": 0.1,
+      "ci95_score_delta_AB": [
+        -0.2,
+        0.4
+      ],
+      "total_cost_usd": 0.0
+    },
+    {
+      "kind": "causal_4cell_verification",
+      "env_name": "alfworld",
+      "split": "eval_out_of_distribution",
+      "pair_kind": "negative_conflict",
+      "id_a": "alf-ws-00",
+      "id_b": "alf-ws-05",
+      "learned_s_ij": -0.11,
+      "count": 8,
+      "co_wins": 3,
+      "selection_source": "posterior_s_ij",
+      "target_context": "alfworld:heat",
+      "rule_a": "To clean, heat, or cool some object, check countertops, stoveburners, and diningtables before opening cabinets.",
+      "rule_b": "To cool some object or put a cool object away, hold it, go to fridge 1, run cool with fridge 1.",
+      "episodes_per_cell": 10,
+      "cell_rates": {
+        "none": 0.1,
+        "A": 0.0,
+        "B": 0.1,
+        "AB": 0.2
+      },
+      "causal_interaction_delta_AB": 0.2,
+      "ci95_delta_AB": [
+        0.0,
+        0.5
+      ],
+      "cell_mean_scores": {
+        "none": 0.1,
+        "A": 0.0,
+        "B": 0.1,
+        "AB": 0.2
+      },
+      "score_interaction_delta_AB": 0.2,
+      "ci95_score_delta_AB": [
+        0.0,
+        0.5
+      ],
+      "total_cost_usd": 0.0
+    }
+  ],
+  "scienceworld": [
+    {
+      "kind": "causal_4cell_verification",
+      "env_name": "scienceworld",
+      "split": "test",
+      "pair_kind": "positive_synergy",
+      "id_a": "sci-ws-06",
+      "id_b": "sci-ws-07",
+      "learned_s_ij": 0.1458,
+      "count": 8,
+      "co_wins": 3,
+      "selection_source": "posterior_s_ij",
+      "target_context": "find-living-thing",
+      "rule_a": "To find a living thing and move it to a box, open doors through hallway to greenhouse or outside, then focus on the living plant or animal.",
+      "rule_b": "To find a living thing and move it to a box, focus on it first, pick it up, go to room, and move to box.",
+      "episodes_per_cell": 10,
+      "cell_rates": {
+        "none": 0.0,
+        "A": 0.0,
+        "B": 0.0,
+        "AB": 0.0
+      },
+      "causal_interaction_delta_AB": 0.0,
+      "ci95_delta_AB": [
+        0.0,
+        0.0
+      ],
+      "cell_mean_scores": {
+        "none": 14.2,
+        "A": 10.7,
+        "B": -7.5,
+        "AB": 47.4
+      },
+      "score_interaction_delta_AB": 58.4,
+      "ci95_score_delta_AB": [
+        -14.0,
+        138.3
+      ],
+      "total_cost_usd": 0.0
+    },
+    {
+      "kind": "causal_4cell_verification",
+      "env_name": "scienceworld",
+      "split": "test",
+      "pair_kind": "negative_conflict",
+      "id_a": "sci-ws-00",
+      "id_b": "sci-ws-01",
+      "learned_s_ij": -0.0805,
+      "count": 3,
+      "co_wins": 0,
+      "selection_source": "posterior_s_ij",
+      "target_context": "test-conductivity",
+      "rule_a": "To determine if an item is electrically conductive, focus on it first, carry it to workshop, and wire battery, bulb, and item.",
+      "rule_b": "For conductivity tests, wire anode and cathode to terminal 1 and 2, wait1, check bulb, and move to box.",
+      "episodes_per_cell": 10,
+      "cell_rates": {
+        "none": 0.0,
+        "A": 0.0,
+        "B": 0.1,
+        "AB": 0.0
+      },
+      "causal_interaction_delta_AB": -0.1,
+      "ci95_delta_AB": [
+        -0.3,
+        0.0
+      ],
+      "cell_mean_scores": {
+        "none": 29.5,
+        "A": 23.5,
+        "B": 33.5,
+        "AB": 23.5
+      },
+      "score_interaction_delta_AB": -4.0,
+      "ci95_score_delta_AB": [
+        -30.0,
+        18.0
+      ],
+      "total_cost_usd": 0.0
+    }
+  ]
+}

@@ -1,0 +1,9 @@
+backbone,env,target_context,pair_kind,selection_source,id_a,id_b,in_final_active_bank,n_tasks_per_cell,learned_s_AB,mean_gated_logit_contrast,pred_prob_contrast_pp,emp_none_pct,emp_A_pct,emp_B_pct,emp_AB_pct,emp_delta_AB_pp
+DeepSeek-V4.1-Flash,alfworld,alfworld:clean,positive_synergy,posterior_s_ij,alf-ws-03,alf-ws-15,True,10,0.2062,0.1558,-0.42,70.0,80.0,70.0,70.0,-10.0
+DeepSeek-V4.1-Flash,alfworld,alfworld:two_obj,negative_conflict,posterior_s_ij,alf-ws-08,distilled-s0-e5,True,2,-0.0526,-0.0427,-1.11,0.0,50.0,0.0,50.0,0.0
+DeepSeek-V4.1-Flash,scienceworld,find-living-thing,positive_synergy,posterior_s_ij,distilled-s0-e0,sci-ws-07,True,5,0.6244,0.5980,3.15,20.0,60.0,60.0,60.0,-40.0
+DeepSeek-V4.1-Flash,scienceworld,test-conductivity,negative_conflict,archived_co_win_0/2,sci-ws-00,sci-ws-11,False,5,,,,20.0,0.0,20.0,20.0,20.0
+Qwen3-8B,alfworld,alfworld:clean,positive_synergy,posterior_s_ij,alf-ws-03,distilled-s0-e14,True,10,0.1975,0.1725,3.33,50.0,60.0,60.0,80.0,10.0
+Qwen3-8B,alfworld,alfworld:heat,negative_conflict,posterior_s_ij,alf-ws-00,alf-ws-05,True,10,-0.1100,-0.0696,-1.40,10.0,0.0,10.0,20.0,20.0
+Qwen3-8B,scienceworld,find-living-thing,positive_synergy,posterior_s_ij,sci-ws-06,sci-ws-07,True,10,0.1458,0.1359,3.40,0.0,0.0,0.0,0.0,0.0
+Qwen3-8B,scienceworld,test-conductivity,negative_conflict,posterior_s_ij,sci-ws-00,sci-ws-01,True,10,-0.0805,-0.0768,-0.40,0.0,0.0,10.0,0.0,-10.0

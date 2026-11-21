@@ -1,0 +1,154 @@
+{
+  "alfworld": [
+    {
+      "kind": "causal_4cell_verification",
+      "env_name": "alfworld",
+      "split": "eval_out_of_distribution",
+      "pair_kind": "positive_synergy",
+      "learned_s_ij": 0.5949,
+      "rule_a": "To put some object in or on a cabinet, safe, or drawer, go to that container, open it, then move.",
+      "rule_b": "For cool tasks, take the item, clean it with sinkbasin, cool it with fridge, then move it to microwave.",
+      "episodes_per_cell": 16,
+      "cell_rates": {
+        "none": 0.75,
+        "A": 0.9375,
+        "B": 0.625,
+        "AB": 0.9375
+      },
+      "causal_interaction_delta_AB": 0.125,
+      "ci95_delta_AB": [
+        -0.1875,
+        0.4375
+      ],
+      "total_cost_usd": 0.2544,
+      "target_context": "alfworld:put",
+      "selection_source": "posterior_s_ij",
+      "id_a": "alf-ws-02",
+      "id_b": "distilled-s1-e1",
+      "count": 31,
+      "co_wins": 26,
+      "cell_mean_scores": {
+        "none": 0.75,
+        "A": 0.94,
+        "B": 0.62,
+        "AB": 0.94
+      },
+      "score_interaction_delta_AB": 0.12,
+      "ci95_score_delta_AB": [
+        -0.19,
+        0.44
+      ]
+    },
+    {
+      "kind": "causal_4cell_verification",
+      "env_name": "alfworld",
+      "split": "eval_out_of_distribution",
+      "pair_kind": "negative_conflict",
+      "learned_s_ij": -0.3589,
+      "rule_a": "To put some object in or on a cabinet, safe, or drawer, go to that container, open it, then move.",
+      "rule_b": "For cool tasks, take the item, open fridge, cool item with fridge, then move item to microwave.",
+      "episodes_per_cell": 16,
+      "cell_rates": {
+        "none": 0.6875,
+        "A": 0.75,
+        "B": 0.8125,
+        "AB": 0.625
+      },
+      "causal_interaction_delta_AB": -0.25,
+      "ci95_delta_AB": [
+        -0.625,
+        0.125
+      ],
+      "total_cost_usd": 0.3071,
+      "target_context": "alfworld:cool",
+      "selection_source": "posterior_s_ij",
+      "cell_mean_scores": {
+        "none": 0.69,
+        "A": 0.75,
+        "B": 0.81,
+        "AB": 0.62
+      },
+      "score_interaction_delta_AB": -0.25,
+      "ci95_score_delta_AB": [
+        -0.62,
+        0.12
+      ]
+    }
+  ],
+  "scienceworld": [
+    {
+      "kind": "causal_4cell_verification",
+      "env_name": "scienceworld",
+      "split": "test",
+      "pair_kind": "positive_synergy",
+      "learned_s_ij": 0.5019,
+      "rule_a": "To find a living thing and move it to a box, open doors through hallway to greenhouse or outside, then focus on the living plant or animal.",
+      "rule_b": "To find a living thing and move it to a box, focus on it first, pick it up, go to room, and move to box.",
+      "episodes_per_cell": 16,
+      "cell_rates": {
+        "none": 0.75,
+        "A": 0.9375,
+        "B": 0.9375,
+        "AB": 0.875
+      },
+      "causal_interaction_delta_AB": -0.25,
+      "ci95_delta_AB": [
+        -0.5625,
+        0.0
+      ],
+      "total_cost_usd": 0.2917,
+      "target_context": "find-living-thing",
+      "selection_source": "posterior_s_ij",
+      "id_a": "sci-ws-06",
+      "id_b": "sci-ws-07",
+      "count": 18,
+      "co_wins": 17,
+      "cell_mean_scores": {
+        "none": 61.44,
+        "A": 87.5,
+        "B": 87.5,
+        "AB": 86.44
+      },
+      "score_interaction_delta_AB": -27.12,
+      "ci95_score_delta_AB": [
+        -87.55,
+        20.75
+      ]
+    },
+    {
+      "kind": "causal_4cell_verification",
+      "env_name": "scienceworld",
+      "split": "test",
+      "pair_kind": "negative_conflict",
+      "learned_s_ij": null,
+      "rule_a": "To determine if an item is electrically conductive, focus on it first, carry it to workshop, and wire battery, bulb, and item.",
+      "rule_b": "To determine if an item is electrically conductive, focus on stopwatch first, use stopwatch on item, and focus directly on the answer box.",
+      "episodes_per_cell": 16,
+      "cell_rates": {
+        "none": 0.125,
+        "A": 0.25,
+        "B": 0.0,
+        "AB": 0.3125
+      },
+      "causal_interaction_delta_AB": 0.1875,
+      "ci95_delta_AB": [
+        -0.125,
+        0.5
+      ],
+      "total_cost_usd": 0.8313,
+      "target_context": "test-conductivity",
+      "selection_source": "archived_co_win_0/2",
+      "cell_mean_scores": {
+        "none": 46.88,
+        "A": 71.5,
+        "B": 41.88,
+        "AB": 54.31
+      },
+      "score_interaction_delta_AB": -12.19,
+      "ci95_score_delta_AB": [
+        -68.69,
+        32.69
+      ]
+    }
+  ]
+}

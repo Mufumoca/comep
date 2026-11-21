@@ -73,6 +73,7 @@ python scripts/run_benchmark_suite.py --help
 - `./comep/`: Core memory managers, Laplace solver, routing/pruning logic, LLM client adapters, and environment wrappers.
 - `./configs/`: Split manifests (`alfworld_*.json`, `scienceworld_*.json`), warm-start pools (`*_warmstart_pool.json`), and TOML/JSON campaign configs.
 - `./scripts/`: Verification suites (`verify*.py`), campaign runners (`run_benchmark_suite.py`, `run_campaign.py`), and analysis/export scripts.
+- `./results/`: Structured CSV result tables (`results/tables/`) and aggregated campaign summary JSONs (`results/summaries/`).
 
 ---
 

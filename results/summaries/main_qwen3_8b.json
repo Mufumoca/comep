@@ -1,0 +1,494 @@
+{
+  "alfworld": {
+    "kind": "benchmark_grid_report",
+    "stage": "stage3-main",
+    "env_name": "alfworld",
+    "split": "eval_out_of_distribution",
+    "episodes_per_seed": 60,
+    "seeds": [
+      0,
+      1,
+      2
+    ],
+    "methods": {
+      "no-memory": {
+        "seeds": 3,
+        "total_episodes": 180,
+        "mean_sr": 0.3389,
+        "std_sr": 0.0752,
+        "ci95_sr": [
+          0.2722,
+          0.4111
+        ],
+        "mean_late_sr": 0.3333,
+        "mean_retrieval_tokens": 0.0,
+        "total_prompt_tokens": 3508694,
+        "total_completion_tokens": 113520,
+        "total_provider_tokens": 3622214,
+        "manager_llm_calls": 0,
+        "distillation_llm_calls": 0,
+        "total_cost_usd": 0.0,
+        "per_episode_cost_usd": 0.0
+      },
+      "full-memory": {
+        "seeds": 3,
+        "total_episodes": 180,
+        "mean_sr": 0.4389,
+        "std_sr": 0.0255,
+        "ci95_sr": [
+          0.3667,
+          0.5111
+        ],
+        "mean_late_sr": 0.3778,
+        "mean_retrieval_tokens": 70.91,
+        "total_prompt_tokens": 3538572,
+        "total_completion_tokens": 105995,
+        "total_provider_tokens": 3644567,
+        "manager_llm_calls": 0,
+        "distillation_llm_calls": 79,
+        "total_cost_usd": 0.0,
+        "per_episode_cost_usd": 0.0
+      },
+      "individual": {
+        "seeds": 3,
+        "total_episodes": 180,
+        "mean_sr": 0.3556,
+        "std_sr": 0.0255,
+        "ci95_sr": [
+          0.2833,
+          0.4222
+        ],
+        "mean_late_sr": 0.3333,
+        "mean_retrieval_tokens": 69.64,
+        "total_prompt_tokens": 3747797,
+        "total_completion_tokens": 111867,
+        "total_provider_tokens": 3859664,
+        "manager_llm_calls": 0,
+        "distillation_llm_calls": 64,
+        "total_cost_usd": 0.0,
+        "per_episode_cost_usd": 0.0
+      },
+      "mmr": {
+        "seeds": 3,
+        "total_episodes": 180,
+        "mean_sr": 0.4111,
+        "std_sr": 0.0752,
+        "ci95_sr": [
+          0.3389,
+          0.4833
+        ],
+        "mean_late_sr": 0.3889,
+        "mean_retrieval_tokens": 69.39,
+        "total_prompt_tokens": 3569541,
+        "total_completion_tokens": 107406,
+        "total_provider_tokens": 3676947,
+        "manager_llm_calls": 0,
+        "distillation_llm_calls": 74,
+        "total_cost_usd": 0.0,
+        "per_episode_cost_usd": 0.0
+      },
+      "additive": {
+        "seeds": 3,
+        "total_episodes": 180,
+        "mean_sr": 0.4722,
+        "std_sr": 0.0918,
+        "ci95_sr": [
+          0.4,
+          0.55
+        ],
+        "mean_late_sr": 0.5333,
+        "mean_retrieval_tokens": 68.44,
+        "total_prompt_tokens": 3564553,
+        "total_completion_tokens": 106735,
+        "total_provider_tokens": 3671288,
+        "manager_llm_calls": 0,
+        "distillation_llm_calls": 85,
+        "total_cost_usd": 0.0,
+        "per_episode_cost_usd": 0.0
+      },
+      "expel-derived-online": {
+        "seeds": 3,
+        "total_episodes": 180,
+        "mean_sr": 0.4333,
+        "std_sr": 0.0667,
+        "ci95_sr": [
+          0.3611,
+          0.5056
+        ],
+        "mean_late_sr": 0.4111,
+        "mean_retrieval_tokens": 78.12,
+        "total_prompt_tokens": 3742349,
+        "total_completion_tokens": 112206,
+        "total_provider_tokens": 3854555,
+        "manager_llm_calls": 38,
+        "distillation_llm_calls": 0,
+        "total_cost_usd": 0.0,
+        "per_episode_cost_usd": 0.0
+      },
+      "evomemguard": {
+        "seeds": 3,
+        "total_episodes": 180,
+        "mean_sr": 0.3944,
+        "std_sr": 0.0385,
+        "ci95_sr": [
+          0.3222,
+          0.4667
+        ],
+        "mean_late_sr": 0.4444,
+        "mean_retrieval_tokens": 73.42,
+        "total_prompt_tokens": 3700972,
+        "total_completion_tokens": 110898,
+        "total_provider_tokens": 3811870,
+        "manager_llm_calls": 0,
+        "distillation_llm_calls": 71,
+        "total_cost_usd": 0.0,
+        "per_episode_cost_usd": 0.0
+      },
+      "comep": {
+        "seeds": 3,
+        "total_episodes": 180,
+        "mean_sr": 0.4667,
+        "std_sr": 0.05,
+        "ci95_sr": [
+          0.3944,
+          0.5389
+        ],
+        "mean_late_sr": 0.4556,
+        "mean_retrieval_tokens": 71.45,
+        "total_prompt_tokens": 3503533,
+        "total_completion_tokens": 106338,
+        "total_provider_tokens": 3609871,
+        "manager_llm_calls": 0,
+        "distillation_llm_calls": 84,
+        "total_cost_usd": 0.0,
+        "per_episode_cost_usd": 0.0
+      }
+    },
+    "paired_vs_comep": {
+      "comep_vs_no-memory": {
+        "n_paired": 180,
+        "diff": 0.1278,
+        "ci95": [
+          0.0444,
+          0.2111
+        ],
+        "comep_wins_discordant": 42,
+        "baseline_wins_discordant": 19,
+        "mcnemar_p": 0.004444
+      },
+      "comep_vs_full-memory": {
+        "n_paired": 180,
+        "diff": 0.0278,
+        "ci95": [
+          -0.0444,
+          0.1
+        ],
+        "comep_wins_discordant": 25,
+        "baseline_wins_discordant": 20,
+        "mcnemar_p": 0.551484
+      },
+      "comep_vs_individual": {
+        "n_paired": 180,
+        "diff": 0.1111,
+        "ci95": [
+          0.0333,
+          0.1889
+        ],
+        "comep_wins_discordant": 36,
+        "baseline_wins_discordant": 16,
+        "mcnemar_p": 0.007787
+      },
+      "comep_vs_mmr": {
+        "n_paired": 180,
+        "diff": 0.0556,
+        "ci95": [
+          -0.0167,
+          0.1278
+        ],
+        "comep_wins_discordant": 28,
+        "baseline_wins_discordant": 18,
+        "mcnemar_p": 0.183925
+      },
+      "comep_vs_additive": {
+        "n_paired": 180,
+        "diff": -0.0056,
+        "ci95": [
+          -0.0722,
+          0.0611
+        ],
+        "comep_wins_discordant": 18,
+        "baseline_wins_discordant": 19,
+        "mcnemar_p": 1.0
+      },
+      "comep_vs_expel-derived-online": {
+        "n_paired": 180,
+        "diff": 0.0333,
+        "ci95": [
+          -0.0333,
+          0.1
+        ],
+        "comep_wins_discordant": 24,
+        "baseline_wins_discordant": 18,
+        "mcnemar_p": 0.440799
+      },
+      "comep_vs_evomemguard": {
+        "n_paired": 180,
+        "diff": 0.0722,
+        "ci95": [
+          0.0056,
+          0.1444
+        ],
+        "comep_wins_discordant": 28,
+        "baseline_wins_discordant": 15,
+        "mcnemar_p": 0.065994
+      }
+    },
+    "total_grid_cost_usd": 0.0
+  },
+  "scienceworld": {
+    "kind": "benchmark_grid_report",
+    "stage": "stage3-main",
+    "env_name": "scienceworld",
+    "split": "test",
+    "episodes_per_seed": 50,
+    "seeds": [
+      0,
+      1,
+      2
+    ],
+    "methods": {
+      "no-memory": {
+        "seeds": 3,
+        "total_episodes": 150,
+        "mean_sr": 0.08,
+        "std_sr": 0.02,
+        "ci95_sr": [
+          0.04,
+          0.1267
+        ],
+        "mean_late_sr": 0.0933,
+        "mean_retrieval_tokens": 0.0,
+        "total_prompt_tokens": 7397182,
+        "total_completion_tokens": 103851,
+        "total_provider_tokens": 7501033,
+        "manager_llm_calls": 0,
+        "distillation_llm_calls": 0,
+        "total_cost_usd": 0.0,
+        "per_episode_cost_usd": 0.0
+      },
+      "full-memory": {
+        "seeds": 3,
+        "total_episodes": 150,
+        "mean_sr": 0.0267,
+        "std_sr": 0.0306,
+        "ci95_sr": [
+          0.0067,
+          0.0533
+        ],
+        "mean_late_sr": 0.0267,
+        "mean_retrieval_tokens": 81.91,
+        "total_prompt_tokens": 7294166,
+        "total_completion_tokens": 101732,
+        "total_provider_tokens": 7395898,
+        "manager_llm_calls": 0,
+        "distillation_llm_calls": 4,
+        "total_cost_usd": 0.0,
+        "per_episode_cost_usd": 0.0
+      },
+      "individual": {
+        "seeds": 3,
+        "total_episodes": 150,
+        "mean_sr": 0.0933,
+        "std_sr": 0.0115,
+        "ci95_sr": [
+          0.0467,
+          0.14
+        ],
+        "mean_late_sr": 0.12,
+        "mean_retrieval_tokens": 80.91,
+        "total_prompt_tokens": 7676998,
+        "total_completion_tokens": 107034,
+        "total_provider_tokens": 7784032,
+        "manager_llm_calls": 0,
+        "distillation_llm_calls": 14,
+        "total_cost_usd": 0.0,
+        "per_episode_cost_usd": 0.0
+      },
+      "mmr": {
+        "seeds": 3,
+        "total_episodes": 150,
+        "mean_sr": 0.0667,
+        "std_sr": 0.0306,
+        "ci95_sr": [
+          0.0267,
+          0.1067
+        ],
+        "mean_late_sr": 0.0533,
+        "mean_retrieval_tokens": 81.55,
+        "total_prompt_tokens": 7554727,
+        "total_completion_tokens": 102827,
+        "total_provider_tokens": 7657554,
+        "manager_llm_calls": 0,
+        "distillation_llm_calls": 10,
+        "total_cost_usd": 0.0,
+        "per_episode_cost_usd": 0.0
+      },
+      "additive": {
+        "seeds": 3,
+        "total_episodes": 150,
+        "mean_sr": 0.1,
+        "std_sr": 0.02,
+        "ci95_sr": [
+          0.0533,
+          0.1533
+        ],
+        "mean_late_sr": 0.0933,
+        "mean_retrieval_tokens": 53.89,
+        "total_prompt_tokens": 7417982,
+        "total_completion_tokens": 99577,
+        "total_provider_tokens": 7517559,
+        "manager_llm_calls": 0,
+        "distillation_llm_calls": 15,
+        "total_cost_usd": 0.0,
+        "per_episode_cost_usd": 0.0
+      },
+      "expel-derived-online": {
+        "seeds": 3,
+        "total_episodes": 150,
+        "mean_sr": 0.0333,
+        "std_sr": 0.0306,
+        "ci95_sr": [
+          0.0067,
+          0.0667
+        ],
+        "mean_late_sr": 0.0267,
+        "mean_retrieval_tokens": 82.04,
+        "total_prompt_tokens": 7551013,
+        "total_completion_tokens": 103337,
+        "total_provider_tokens": 7654350,
+        "manager_llm_calls": 0,
+        "distillation_llm_calls": 0,
+        "total_cost_usd": 0.0,
+        "per_episode_cost_usd": 0.0
+      },
+      "evomemguard": {
+        "seeds": 3,
+        "total_episodes": 150,
+        "mean_sr": 0.04,
+        "std_sr": 0.0346,
+        "ci95_sr": [
+          0.0133,
+          0.0733
+        ],
+        "mean_late_sr": 0.0133,
+        "mean_retrieval_tokens": 51.53,
+        "total_prompt_tokens": 7399735,
+        "total_completion_tokens": 99775,
+        "total_provider_tokens": 7499510,
+        "manager_llm_calls": 0,
+        "distillation_llm_calls": 6,
+        "total_cost_usd": 0.0,
+        "per_episode_cost_usd": 0.0
+      },
+      "comep": {
+        "seeds": 3,
+        "total_episodes": 150,
+        "mean_sr": 0.1267,
+        "std_sr": 0.0503,
+        "ci95_sr": [
+          0.08,
+          0.1867
+        ],
+        "mean_late_sr": 0.1333,
+        "mean_retrieval_tokens": 58.39,
+        "total_prompt_tokens": 7599518,
+        "total_completion_tokens": 104467,
+        "total_provider_tokens": 7703985,
+        "manager_llm_calls": 0,
+        "distillation_llm_calls": 19,
+        "total_cost_usd": 0.0,
+        "per_episode_cost_usd": 0.0
+      }
+    },
+    "paired_vs_comep": {
+      "comep_vs_no-memory": {
+        "n_paired": 150,
+        "diff": 0.0467,
+        "ci95": [
+          -0.0133,
+          0.1067
+        ],
+        "comep_wins_discordant": 14,
+        "baseline_wins_discordant": 7,
+        "mcnemar_p": 0.189247
+      },
+      "comep_vs_full-memory": {
+        "n_paired": 150,
+        "diff": 0.1,
+        "ci95": [
+          0.0467,
+          0.1533
+        ],
+        "comep_wins_discordant": 17,
+        "baseline_wins_discordant": 2,
+        "mcnemar_p": 0.000729
+      },
+      "comep_vs_individual": {
+        "n_paired": 150,
+        "diff": 0.0333,
+        "ci95": [
+          -0.0267,
+          0.0933
+        ],
+        "comep_wins_discordant": 14,
+        "baseline_wins_discordant": 9,
+        "mcnemar_p": 0.404873
+      },
+      "comep_vs_mmr": {
+        "n_paired": 150,
+        "diff": 0.06,
+        "ci95": [
+          0.0067,
+          0.1133
+        ],
+        "comep_wins_discordant": 14,
+        "baseline_wins_discordant": 5,
+        "mcnemar_p": 0.063568
+      },
+      "comep_vs_additive": {
+        "n_paired": 150,
+        "diff": 0.0267,
+        "ci95": [
+          -0.0267,
+          0.08
+        ],
+        "comep_wins_discordant": 10,
+        "baseline_wins_discordant": 6,
+        "mcnemar_p": 0.454498
+      },
+      "comep_vs_expel-derived-online": {
+        "n_paired": 150,
+        "diff": 0.0933,
+        "ci95": [
+          0.04,
+          0.1467
+        ],
+        "comep_wins_discordant": 16,
+        "baseline_wins_discordant": 2,
+        "mcnemar_p": 0.001312
+      },
+      "comep_vs_evomemguard": {
+        "n_paired": 150,
+        "diff": 0.0867,
+        "ci95": [
+          0.0333,
+          0.14
+        ],
+        "comep_wins_discordant": 15,
+        "baseline_wins_discordant": 2,
+        "mcnemar_p": 0.00235
+      }
+    },
+    "total_grid_cost_usd": 0.0
+  }
+}
