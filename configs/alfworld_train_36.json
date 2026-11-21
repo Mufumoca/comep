@@ -1,0 +1,182 @@
+[
+  {
+    "game": "/root/.paseo/worktrees/1s5ku8sn/lucid-bumblebee/outputs/alfworld-data-20261104/json_2.1.1/train/pick_and_place_simple-Pillow-None-Ottoman-208/trial_T20190906_172059_337617/game.tw-pddl",
+    "family": "pick_and_place_simple",
+    "sha256": "e0fb060ee2ada72873988c88d069564e6fe97de4bed1207d57ec4ed4b9bd7ea7"
+  },
+  {
+    "game": "/root/.paseo/worktrees/1s5ku8sn/lucid-bumblebee/outputs/alfworld-data-20261104/json_2.1.1/train/look_at_obj_in_light-AlarmClock-None-DeskLamp-327/trial_T20190909_101936_297661/game.tw-pddl",
+    "family": "look_at_obj_in_light",
+    "sha256": "08ef0c5115600051931463be112b89b51e6ac46ad41447c29b8af698b9de4782"
+  },
+  {
+    "game": "/root/.paseo/worktrees/1s5ku8sn/lucid-bumblebee/outputs/alfworld-data-20261104/json_2.1.1/train/pick_clean_then_place_in_recep-Spoon-None-DiningTable-20/trial_T20190909_034621_566395/game.tw-pddl",
+    "family": "pick_clean_then_place_in_recep",
+    "sha256": "ca84d8a211480c322e9c46866ad4927c9088bde27dc3626b59ae7cfde3cb8fde"
+  },
+  {
+    "game": "/root/.paseo/worktrees/1s5ku8sn/lucid-bumblebee/outputs/alfworld-data-20261104/json_2.1.1/train/pick_heat_then_place_in_recep-Mug-None-CoffeeMachine-24/trial_T20190907_144720_997810/game.tw-pddl",
+    "family": "pick_heat_then_place_in_recep",
+    "sha256": "39bedf14cce80a413e06ee32f81fd470a05b8fde70e2e0a859a1c191759ab36b"
+  },
+  {
+    "game": "/root/.paseo/worktrees/1s5ku8sn/lucid-bumblebee/outputs/alfworld-data-20261104/json_2.1.1/train/pick_cool_then_place_in_recep-Apple-None-GarbageCan-19/trial_T20190908_121544_758256/game.tw-pddl",
+    "family": "pick_cool_then_place_in_recep",
+    "sha256": "61f04ac75bfe70d7ba2b93ff26175cb9cdcb2a645b44f9b1dc85627f3eed73c8"
+  },
+  {
+    "game": "/root/.paseo/worktrees/1s5ku8sn/lucid-bumblebee/outputs/alfworld-data-20261104/json_2.1.1/train/pick_two_obj_and_place-PepperShaker-None-Cabinet-17/trial_T20190907_145453_471675/game.tw-pddl",
+    "family": "pick_two_obj_and_place",
+    "sha256": "d3085199121c090ad4fb2e22941a0071ac1da59525c8c96a33a1a13fb9c73c82"
+  },
+  {
+    "game": "/root/.paseo/worktrees/1s5ku8sn/lucid-bumblebee/outputs/alfworld-data-20261104/json_2.1.1/train/pick_and_place_simple-Pencil-None-SideTable-309/trial_T20190909_064559_662348/game.tw-pddl",
+    "family": "pick_and_place_simple",
+    "sha256": "c750ed5e44b8fe83247f25fc35d58e169744e4b8d43f4a3db0b11a55f6a39025"
+  },
+  {
+    "game": "/root/.paseo/worktrees/1s5ku8sn/lucid-bumblebee/outputs/alfworld-data-20261104/json_2.1.1/train/look_at_obj_in_light-AlarmClock-None-DeskLamp-316/trial_T20190906_202305_162111/game.tw-pddl",
+    "family": "look_at_obj_in_light",
+    "sha256": "06af75758fe3cd8c874a3defb8af1637f9a32ad1ed81d68b8d11dcadd33ec97c"
+  },
+  {
+    "game": "/root/.paseo/worktrees/1s5ku8sn/lucid-bumblebee/outputs/alfworld-data-20261104/json_2.1.1/train/pick_clean_then_place_in_recep-Pan-None-StoveBurner-20/trial_T20190908_113753_792173/game.tw-pddl",
+    "family": "pick_clean_then_place_in_recep",
+    "sha256": "341c1e0a2ec09dee5834d091730b802d40bcf139c0faaf1c4952a44ea69ef16b"
+  },
+  {
+    "game": "/root/.paseo/worktrees/1s5ku8sn/lucid-bumblebee/outputs/alfworld-data-20261104/json_2.1.1/train/pick_heat_then_place_in_recep-Cup-None-Cabinet-13/trial_T20190908_124531_467401/game.tw-pddl",
+    "family": "pick_heat_then_place_in_recep",
+    "sha256": "050de17edac1c732d3a2cfeecc6bbe67fafd8e63755bbaca6a6d6cd749a7cea4"
+  },
+  {
+    "game": "/root/.paseo/worktrees/1s5ku8sn/lucid-bumblebee/outputs/alfworld-data-20261104/json_2.1.1/train/pick_cool_then_place_in_recep-Cup-None-Cabinet-26/trial_T20190911_010105_306566/game.tw-pddl",
+    "family": "pick_cool_then_place_in_recep",
+    "sha256": "23540b0ecea0b6e4e846dafae28efef1dba76d7648323f972479f28d5f70d428"
+  },
+  {
+    "game": "/root/.paseo/worktrees/1s5ku8sn/lucid-bumblebee/outputs/alfworld-data-20261104/json_2.1.1/train/pick_two_obj_and_place-AlarmClock-None-Dresser-318/trial_T20190908_032459_936721/game.tw-pddl",
+    "family": "pick_two_obj_and_place",
+    "sha256": "2e254168e94974e1066d8bfa4b24ded38e265518f3d5e1ee4df61f6fb7546571"
+  },
+  {
+    "game": "/root/.paseo/worktrees/1s5ku8sn/lucid-bumblebee/outputs/alfworld-data-20261104/json_2.1.1/train/pick_and_place_simple-ToiletPaper-None-Toilet-419/trial_T20190908_002414_710612/game.tw-pddl",
+    "family": "pick_and_place_simple",
+    "sha256": "94d12cccd6f91a6b980bfc00b21262f1da47350946c38ddb37164e7d2daeaa2e"
+  },
+  {
+    "game": "/root/.paseo/worktrees/1s5ku8sn/lucid-bumblebee/outputs/alfworld-data-20261104/json_2.1.1/train/look_at_obj_in_light-CD-None-DeskLamp-304/trial_T20190907_185649_782438/game.tw-pddl",
+    "family": "look_at_obj_in_light",
+    "sha256": "561321716c325002219e31e8552c7c6a53a9711b71ed347263ee199ad6dc760a"
+  },
+  {
+    "game": "/root/.paseo/worktrees/1s5ku8sn/lucid-bumblebee/outputs/alfworld-data-20261104/json_2.1.1/train/pick_clean_then_place_in_recep-Fork-None-SideTable-3/trial_T20190908_044107_458160/game.tw-pddl",
+    "family": "pick_clean_then_place_in_recep",
+    "sha256": "8a9b34edb9b92ff9e8633b0ebaf2b1099b2e9fe1e40d8a1834f9b7a29e9dd62c"
+  },
+  {
+    "game": "/root/.paseo/worktrees/1s5ku8sn/lucid-bumblebee/outputs/alfworld-data-20261104/json_2.1.1/train/pick_heat_then_place_in_recep-Tomato-None-Fridge-7/trial_T20190909_022805_528384/game.tw-pddl",
+    "family": "pick_heat_then_place_in_recep",
+    "sha256": "07d24848faf7f13034e2b4eaa263d7524c5502b51cebc1eb05cd49c38e731bcd"
+  },
+  {
+    "game": "/root/.paseo/worktrees/1s5ku8sn/lucid-bumblebee/outputs/alfworld-data-20261104/json_2.1.1/train/pick_cool_then_place_in_recep-Potato-None-GarbageCan-2/trial_T20190908_101532_809731/game.tw-pddl",
+    "family": "pick_cool_then_place_in_recep",
+    "sha256": "871ae0f0f8fc9aa96c868a78a735d966eeadbb120486d6bc5b0a76df3d37c9b6"
+  },
+  {
+    "game": "/root/.paseo/worktrees/1s5ku8sn/lucid-bumblebee/outputs/alfworld-data-20261104/json_2.1.1/train/pick_two_obj_and_place-Pot-None-Shelf-1/trial_T20190908_170636_981445/game.tw-pddl",
+    "family": "pick_two_obj_and_place",
+    "sha256": "2c265e46fc048d250d6ea8dfd683dc4b20226c5e03c9ccdaca1be34e443d3955"
+  },
+  {
+    "game": "/root/.paseo/worktrees/1s5ku8sn/lucid-bumblebee/outputs/alfworld-data-20261104/json_2.1.1/train/pick_and_place_simple-Watch-None-CoffeeTable-222/trial_T20190908_032356_906995/game.tw-pddl",
+    "family": "pick_and_place_simple",
+    "sha256": "d5045049341e60590b5b8212a28dd53dae6e89d3571762ddd7661504e2f16b8a"
+  },
+  {
+    "game": "/root/.paseo/worktrees/1s5ku8sn/lucid-bumblebee/outputs/alfworld-data-20261104/json_2.1.1/train/look_at_obj_in_light-Watch-None-DeskLamp-205/trial_T20190907_001948_509721/game.tw-pddl",
+    "family": "look_at_obj_in_light",
+    "sha256": "08480aeec4264e0a192154152c59b771e8ae2b06a819eefe94e380e7ada00ec1"
+  },
+  {
+    "game": "/root/.paseo/worktrees/1s5ku8sn/lucid-bumblebee/outputs/alfworld-data-20261104/json_2.1.1/train/pick_clean_then_place_in_recep-Kettle-None-DiningTable-15/trial_T20190909_151144_561657/game.tw-pddl",
+    "family": "pick_clean_then_place_in_recep",
+    "sha256": "61a5c940e1cf04e458ac48542858ab88fc05adb157ac7ab4616da3955f1198f6"
+  },
+  {
+    "game": "/root/.paseo/worktrees/1s5ku8sn/lucid-bumblebee/outputs/alfworld-data-20261104/json_2.1.1/train/pick_heat_then_place_in_recep-Egg-None-GarbageCan-11/trial_T20190908_220027_082582/game.tw-pddl",
+    "family": "pick_heat_then_place_in_recep",
+    "sha256": "a0b881caa950c565c3c28b9ba13b848d24fa9600d7b31854a40306365e0535ef"
+  },
+  {
+    "game": "/root/.paseo/worktrees/1s5ku8sn/lucid-bumblebee/outputs/alfworld-data-20261104/json_2.1.1/train/pick_cool_then_place_in_recep-Apple-None-Microwave-23/trial_T20190908_051110_010210/game.tw-pddl",
+    "family": "pick_cool_then_place_in_recep",
+    "sha256": "f6eebdb844e447ef1fbfa92f9df8b8b3be02003ec53b18fc34431133b5f63f36"
+  },
+  {
+    "game": "/root/.paseo/worktrees/1s5ku8sn/lucid-bumblebee/outputs/alfworld-data-20261104/json_2.1.1/train/pick_two_obj_and_place-Pen-None-Dresser-327/trial_T20190912_025720_775535/game.tw-pddl",
+    "family": "pick_two_obj_and_place",
+    "sha256": "78a795f760564ea1f4d3ac10ffd44d6f63227a372c5e9014075a15d2d9d0ebfa"
+  },
+  {
+    "game": "/root/.paseo/worktrees/1s5ku8sn/lucid-bumblebee/outputs/alfworld-data-20261104/json_2.1.1/train/pick_and_place_simple-Book-None-Sofa-201/trial_T20190908_132617_405517/game.tw-pddl",
+    "family": "pick_and_place_simple",
+    "sha256": "78401b798d6760a4df41b98e105131db484f30ae8bde4a3befc2345aa13d1186"
+  },
+  {
+    "game": "/root/.paseo/worktrees/1s5ku8sn/lucid-bumblebee/outputs/alfworld-data-20261104/json_2.1.1/train/look_at_obj_in_light-Book-None-DeskLamp-316/trial_T20190908_101915_421195/game.tw-pddl",
+    "family": "look_at_obj_in_light",
+    "sha256": "394a892bd8f912f3025df0ff4b855c3bf614b9009db280c4fef4b6f1e3cdab6c"
+  },
+  {
+    "game": "/root/.paseo/worktrees/1s5ku8sn/lucid-bumblebee/outputs/alfworld-data-20261104/json_2.1.1/train/pick_clean_then_place_in_recep-Pan-None-StoveBurner-5/trial_T20190907_124501_787647/game.tw-pddl",
+    "family": "pick_clean_then_place_in_recep",
+    "sha256": "06f03727b30b5d4fb2b22bdb8f5b73ca6d88d95c3cab2e4a4224189e29842169"
+  },
+  {
+    "game": "/root/.paseo/worktrees/1s5ku8sn/lucid-bumblebee/outputs/alfworld-data-20261104/json_2.1.1/train/pick_heat_then_place_in_recep-Cup-None-Cabinet-18/trial_T20190907_150654_710990/game.tw-pddl",
+    "family": "pick_heat_then_place_in_recep",
+    "sha256": "7c75a74476b3fe072d2bbaac575af7c1a7568e5efcaaeaf7d6031bdb1ff8cc99"
+  },
+  {
+    "game": "/root/.paseo/worktrees/1s5ku8sn/lucid-bumblebee/outputs/alfworld-data-20261104/json_2.1.1/train/pick_cool_then_place_in_recep-Potato-None-DiningTable-27/trial_T20190908_204107_992431/game.tw-pddl",
+    "family": "pick_cool_then_place_in_recep",
+    "sha256": "686e10dc7172872cac55fddab2610a91ef0e51f053e6f094c861e97a8264d18f"
+  },
+  {
+    "game": "/root/.paseo/worktrees/1s5ku8sn/lucid-bumblebee/outputs/alfworld-data-20261104/json_2.1.1/train/pick_two_obj_and_place-CellPhone-None-Shelf-320/trial_T20190908_053533_960820/game.tw-pddl",
+    "family": "pick_two_obj_and_place",
+    "sha256": "2bb5fe91196f1007e1ffe995c36c79fe56f64c64668c792bfe27460a1f82b43b"
+  },
+  {
+    "game": "/root/.paseo/worktrees/1s5ku8sn/lucid-bumblebee/outputs/alfworld-data-20261104/json_2.1.1/train/pick_and_place_simple-SoapBottle-None-Cabinet-414/trial_T20190908_110224_056978/game.tw-pddl",
+    "family": "pick_and_place_simple",
+    "sha256": "91ff9f5bdfce1a230fb380f26a06759f8c99e5e2a184ed553d2ca3b3d61d8646"
+  },
+  {
+    "game": "/root/.paseo/worktrees/1s5ku8sn/lucid-bumblebee/outputs/alfworld-data-20261104/json_2.1.1/train/look_at_obj_in_light-Pillow-None-DeskLamp-316/trial_T20190908_232409_225369/game.tw-pddl",
+    "family": "look_at_obj_in_light",
+    "sha256": "02f7ed68e04be8b8cafa9899f82938e0484515257f790cd386ec6c5fe82cf5db"
+  },
+  {
+    "game": "/root/.paseo/worktrees/1s5ku8sn/lucid-bumblebee/outputs/alfworld-data-20261104/json_2.1.1/train/pick_clean_then_place_in_recep-Cloth-None-Drawer-415/trial_T20190906_190057_260207/game.tw-pddl",
+    "family": "pick_clean_then_place_in_recep",
+    "sha256": "4847a1af4a84a232fe20dc2c63e85ecc8dde902e12b65bebc04b0a0c31bff9c3"
+  },
+  {
+    "game": "/root/.paseo/worktrees/1s5ku8sn/lucid-bumblebee/outputs/alfworld-data-20261104/json_2.1.1/train/pick_heat_then_place_in_recep-Mug-None-Shelf-1/trial_T20190907_075451_036053/game.tw-pddl",
+    "family": "pick_heat_then_place_in_recep",
+    "sha256": "2faba8fee495ed20a02060dd7f58d3f6b6de457447c6b4da55e8ad5331c4010d"
+  },
+  {
+    "game": "/root/.paseo/worktrees/1s5ku8sn/lucid-bumblebee/outputs/alfworld-data-20261104/json_2.1.1/train/pick_cool_then_place_in_recep-Mug-None-CoffeeMachine-2/trial_T20190907_044207_650433/game.tw-pddl",
+    "family": "pick_cool_then_place_in_recep",
+    "sha256": "14895b433006f30ed5f18a0a42299e359847887c9ac59ba41a999c7180012253"
+  },
+  {
+    "game": "/root/.paseo/worktrees/1s5ku8sn/lucid-bumblebee/outputs/alfworld-data-20261104/json_2.1.1/train/pick_two_obj_and_place-ToiletPaper-None-Drawer-416/trial_T20190908_013040_862247/game.tw-pddl",
+    "family": "pick_two_obj_and_place",
+    "sha256": "c6508831bb48a7c70e47532573e1fe19d6f55ca30838a706204b25a916d88603"
+  }
+]

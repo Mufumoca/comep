@@ -1,0 +1,10 @@
+[
+  {"id": "general-01", "text": "Read the task objective and inspect the current room before choosing an action."},
+  {"id": "general-02", "text": "Use the exact object names shown by the environment when issuing commands."},
+  {"id": "general-03", "text": "Navigate through available doors to locate required objects rather than guessing remote object locations."},
+  {"id": "general-04", "text": "Inspect inventory to confirm that an object has been picked up before attempting to use it."},
+  {"id": "general-05", "text": "For a measurement task, locate the appropriate instrument and the target substance before measuring."},
+  {"id": "general-06", "text": "After an invalid action, inspect the returned observation and choose a supported command instead of repeating it."},
+  {"id": "general-07", "text": "When the task requests a target object, identify its relevant properties before focusing on it."},
+  {"id": "general-08", "text": "For a device task, inspect its connections and power source before attempting to activate it."}
+]

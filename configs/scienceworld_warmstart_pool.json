@@ -1,0 +1,74 @@
+[
+  {
+    "id": "sci-ws-00",
+    "text": "To determine if an item is electrically conductive, focus on it first, carry it to workshop, and wire battery, bulb, and item."
+  },
+  {
+    "id": "sci-ws-01",
+    "text": "For conductivity tests, wire anode and cathode to terminal 1 and 2, wait1, check bulb, and move to box."
+  },
+  {
+    "id": "sci-ws-02",
+    "text": "For inclined plane angle tasks, go to workshop, move the block onto each inclined plane, run wait1, and look at plane."
+  },
+  {
+    "id": "sci-ws-03",
+    "text": "On inclined planes after one wait1 each, larger percent down means steepest angle and smaller means shallowest; focus plane."
+  },
+  {
+    "id": "sci-ws-04",
+    "text": "To measure the temperature of an unknown substance, pick up thermometer in kitchen, focus on thermometer, focus substance, and use thermometer."
+  },
+  {
+    "id": "sci-ws-05",
+    "text": "After measuring temperature of an unknown substance with thermometer, pick up the substance and move it into goal box without focusing box."
+  },
+  {
+    "id": "sci-ws-06",
+    "text": "To find a living thing and move it to a box, open doors through hallway to greenhouse or outside, then focus on the living plant or animal."
+  },
+  {
+    "id": "sci-ws-07",
+    "text": "To find a living thing and move it to a box, focus on it first, pick it up, go to room, and move to box."
+  },
+  {
+    "id": "sci-ws-08",
+    "text": "To measure the melting point of a known substance, navigate to that substance, focus on thermometer first, and then focus on the substance."
+  },
+  {
+    "id": "sci-ws-09",
+    "text": "After focusing on thermometer and known substance in melting-point tasks, compare its known melting point to threshold and focus on color box."
+  },
+  {
+    "id": "sci-ws-10",
+    "text": "To determine if an item is electrically conductive, focus on stopwatch first, use stopwatch on item, and focus directly on the answer box."
+  },
+  {
+    "id": "sci-ws-11",
+    "text": "To determine if an item is electrically conductive, pick up all workshop wires and bulbs and move item to box untested."
+  },
+  {
+    "id": "sci-ws-12",
+    "text": "To determine which inclined plane has steepest or shallowest angle, focus on the stopwatch immediately and focus on the first plane untested."
+  },
+  {
+    "id": "sci-ws-13",
+    "text": "When comparing two inclined planes after one wait1, treat smaller percent slid down as the steepest angle and larger percent as shallowest."
+  },
+  {
+    "id": "sci-ws-14",
+    "text": "To measure the temperature of an unknown substance, focus directly on the destination color box before picking up or using any thermometer."
+  },
+  {
+    "id": "sci-ws-15",
+    "text": "After measuring the temperature of an unknown substance, complete the task by running focus on the destination color box instead of moving it."
+  },
+  {
+    "id": "sci-ws-16",
+    "text": "To find a living thing and move it to a box, immediately run focus on the nearest indoor chair, table, or painting in the starting room."
+  },
+  {
+    "id": "sci-ws-17",
+    "text": "To measure the melting point of a known substance, focus directly on the kitchen stove first instead of focusing on thermometer or box."
+  }
+]

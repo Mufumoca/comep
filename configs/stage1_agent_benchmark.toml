@@ -1,0 +1,27 @@
+[experiment]
+episodes = 360
+seeds = [0, 1, 2, 3, 4]
+methods = ["no-memory", "full-memory", "individual", "mmr", "additive", "proposal", "evomemguard", "comep"]
+scenario = "agent-composite"
+size = 24
+poison_fraction = 0.2
+arrival_every = 20
+
+[memory]
+embedding_model = "models/bge-small-en-v1.5"
+token_encoding = "cl100k_base"
+
+[manager]
+retrieval_tokens = 64
+bank_tokens = 440
+max_items = 2
+max_bank_items = 18
+exploration = 0.10
+sampling_scale = 0.30
+pair_lookahead = true
+matched_pair_lookahead = true
+min_pair_observations = 3
+conflict_z = 1.0
+admission_grace_episodes = 2
+min_prob_gain_per_token = 0.003
+nli_model = "models/deberta-v3-base-mnli-fever-anli"

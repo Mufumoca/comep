@@ -1,0 +1,602 @@
+[
+  {
+    "task": "find-living-thing",
+    "variation": 290,
+    "split": "test",
+    "simplifications": ""
+  },
+  {
+    "task": "use-thermometer",
+    "variation": 461,
+    "split": "test",
+    "simplifications": ""
+  },
+  {
+    "task": "test-conductivity",
+    "variation": 696,
+    "split": "test",
+    "simplifications": ""
+  },
+  {
+    "task": "measure-melting-point-known-substance",
+    "variation": 333,
+    "split": "test",
+    "simplifications": ""
+  },
+  {
+    "task": "inclined-plane-determine-angle",
+    "variation": 157,
+    "split": "test",
+    "simplifications": ""
+  },
+  {
+    "task": "find-living-thing",
+    "variation": 248,
+    "split": "test",
+    "simplifications": ""
+  },
+  {
+    "task": "use-thermometer",
+    "variation": 460,
+    "split": "test",
+    "simplifications": ""
+  },
+  {
+    "task": "test-conductivity",
+    "variation": 751,
+    "split": "test",
+    "simplifications": ""
+  },
+  {
+    "task": "measure-melting-point-known-substance",
+    "variation": 435,
+    "split": "test",
+    "simplifications": ""
+  },
+  {
+    "task": "inclined-plane-determine-angle",
+    "variation": 147,
+    "split": "test",
+    "simplifications": ""
+  },
+  {
+    "task": "find-living-thing",
+    "variation": 255,
+    "split": "test",
+    "simplifications": ""
+  },
+  {
+    "task": "use-thermometer",
+    "variation": 525,
+    "split": "test",
+    "simplifications": ""
+  },
+  {
+    "task": "test-conductivity",
+    "variation": 885,
+    "split": "test",
+    "simplifications": ""
+  },
+  {
+    "task": "measure-melting-point-known-substance",
+    "variation": 365,
+    "split": "test",
+    "simplifications": ""
+  },
+  {
+    "task": "inclined-plane-determine-angle",
+    "variation": 127,
+    "split": "test",
+    "simplifications": ""
+  },
+  {
+    "task": "find-living-thing",
+    "variation": 252,
+    "split": "test",
+    "simplifications": ""
+  },
+  {
+    "task": "use-thermometer",
+    "variation": 498,
+    "split": "test",
+    "simplifications": ""
+  },
+  {
+    "task": "test-conductivity",
+    "variation": 861,
+    "split": "test",
+    "simplifications": ""
+  },
+  {
+    "task": "measure-melting-point-known-substance",
+    "variation": 431,
+    "split": "test",
+    "simplifications": ""
+  },
+  {
+    "task": "inclined-plane-determine-angle",
+    "variation": 158,
+    "split": "test",
+    "simplifications": ""
+  },
+  {
+    "task": "find-living-thing",
+    "variation": 277,
+    "split": "test",
+    "simplifications": ""
+  },
+  {
+    "task": "use-thermometer",
+    "variation": 478,
+    "split": "test",
+    "simplifications": ""
+  },
+  {
+    "task": "test-conductivity",
+    "variation": 680,
+    "split": "test",
+    "simplifications": ""
+  },
+  {
+    "task": "measure-melting-point-known-substance",
+    "variation": 389,
+    "split": "test",
+    "simplifications": ""
+  },
+  {
+    "task": "inclined-plane-determine-angle",
+    "variation": 143,
+    "split": "test",
+    "simplifications": ""
+  },
+  {
+    "task": "find-living-thing",
+    "variation": 275,
+    "split": "test",
+    "simplifications": ""
+  },
+  {
+    "task": "use-thermometer",
+    "variation": 505,
+    "split": "test",
+    "simplifications": ""
+  },
+  {
+    "task": "test-conductivity",
+    "variation": 716,
+    "split": "test",
+    "simplifications": ""
+  },
+  {
+    "task": "measure-melting-point-known-substance",
+    "variation": 400,
+    "split": "test",
+    "simplifications": ""
+  },
+  {
+    "task": "inclined-plane-determine-angle",
+    "variation": 144,
+    "split": "test",
+    "simplifications": ""
+  },
+  {
+    "task": "find-living-thing",
+    "variation": 240,
+    "split": "test",
+    "simplifications": ""
+  },
+  {
+    "task": "use-thermometer",
+    "variation": 470,
+    "split": "test",
+    "simplifications": ""
+  },
+  {
+    "task": "test-conductivity",
+    "variation": 879,
+    "split": "test",
+    "simplifications": ""
+  },
+  {
+    "task": "measure-melting-point-known-substance",
+    "variation": 354,
+    "split": "test",
+    "simplifications": ""
+  },
+  {
+    "task": "inclined-plane-determine-angle",
+    "variation": 152,
+    "split": "test",
+    "simplifications": ""
+  },
+  {
+    "task": "find-living-thing",
+    "variation": 286,
+    "split": "test",
+    "simplifications": ""
+  },
+  {
+    "task": "use-thermometer",
+    "variation": 453,
+    "split": "test",
+    "simplifications": ""
+  },
+  {
+    "task": "test-conductivity",
+    "variation": 752,
+    "split": "test",
+    "simplifications": ""
+  },
+  {
+    "task": "measure-melting-point-known-substance",
+    "variation": 418,
+    "split": "test",
+    "simplifications": ""
+  },
+  {
+    "task": "inclined-plane-determine-angle",
+    "variation": 165,
+    "split": "test",
+    "simplifications": ""
+  },
+  {
+    "task": "find-living-thing",
+    "variation": 296,
+    "split": "test",
+    "simplifications": ""
+  },
+  {
+    "task": "use-thermometer",
+    "variation": 452,
+    "split": "test",
+    "simplifications": ""
+  },
+  {
+    "task": "test-conductivity",
+    "variation": 826,
+    "split": "test",
+    "simplifications": ""
+  },
+  {
+    "task": "measure-melting-point-known-substance",
+    "variation": 375,
+    "split": "test",
+    "simplifications": ""
+  },
+  {
+    "task": "inclined-plane-determine-angle",
+    "variation": 155,
+    "split": "test",
+    "simplifications": ""
+  },
+  {
+    "task": "find-living-thing",
+    "variation": 298,
+    "split": "test",
+    "simplifications": ""
+  },
+  {
+    "task": "use-thermometer",
+    "variation": 506,
+    "split": "test",
+    "simplifications": ""
+  },
+  {
+    "task": "test-conductivity",
+    "variation": 882,
+    "split": "test",
+    "simplifications": ""
+  },
+  {
+    "task": "measure-melting-point-known-substance",
+    "variation": 410,
+    "split": "test",
+    "simplifications": ""
+  },
+  {
+    "task": "inclined-plane-determine-angle",
+    "variation": 166,
+    "split": "test",
+    "simplifications": ""
+  },
+  {
+    "task": "find-living-thing",
+    "variation": 264,
+    "split": "test",
+    "simplifications": ""
+  },
+  {
+    "task": "use-thermometer",
+    "variation": 500,
+    "split": "test",
+    "simplifications": ""
+  },
+  {
+    "task": "test-conductivity",
+    "variation": 715,
+    "split": "test",
+    "simplifications": ""
+  },
+  {
+    "task": "measure-melting-point-known-substance",
+    "variation": 359,
+    "split": "test",
+    "simplifications": ""
+  },
+  {
+    "task": "inclined-plane-determine-angle",
+    "variation": 128,
+    "split": "test",
+    "simplifications": ""
+  },
+  {
+    "task": "find-living-thing",
+    "variation": 269,
+    "split": "test",
+    "simplifications": ""
+  },
+  {
+    "task": "use-thermometer",
+    "variation": 406,
+    "split": "test",
+    "simplifications": ""
+  },
+  {
+    "task": "test-conductivity",
+    "variation": 722,
+    "split": "test",
+    "simplifications": ""
+  },
+  {
+    "task": "measure-melting-point-known-substance",
+    "variation": 379,
+    "split": "test",
+    "simplifications": ""
+  },
+  {
+    "task": "inclined-plane-determine-angle",
+    "variation": 154,
+    "split": "test",
+    "simplifications": ""
+  },
+  {
+    "task": "find-living-thing",
+    "variation": 273,
+    "split": "test",
+    "simplifications": ""
+  },
+  {
+    "task": "use-thermometer",
+    "variation": 526,
+    "split": "test",
+    "simplifications": ""
+  },
+  {
+    "task": "test-conductivity",
+    "variation": 711,
+    "split": "test",
+    "simplifications": ""
+  },
+  {
+    "task": "measure-melting-point-known-substance",
+    "variation": 421,
+    "split": "test",
+    "simplifications": ""
+  },
+  {
+    "task": "inclined-plane-determine-angle",
+    "variation": 134,
+    "split": "test",
+    "simplifications": ""
+  },
+  {
+    "task": "find-living-thing",
+    "variation": 254,
+    "split": "test",
+    "simplifications": ""
+  },
+  {
+    "task": "use-thermometer",
+    "variation": 412,
+    "split": "test",
+    "simplifications": ""
+  },
+  {
+    "task": "test-conductivity",
+    "variation": 688,
+    "split": "test",
+    "simplifications": ""
+  },
+  {
+    "task": "measure-melting-point-known-substance",
+    "variation": 339,
+    "split": "test",
+    "simplifications": ""
+  },
+  {
+    "task": "inclined-plane-determine-angle",
+    "variation": 151,
+    "split": "test",
+    "simplifications": ""
+  },
+  {
+    "task": "find-living-thing",
+    "variation": 272,
+    "split": "test",
+    "simplifications": ""
+  },
+  {
+    "task": "use-thermometer",
+    "variation": 431,
+    "split": "test",
+    "simplifications": ""
+  },
+  {
+    "task": "test-conductivity",
+    "variation": 854,
+    "split": "test",
+    "simplifications": ""
+  },
+  {
+    "task": "measure-melting-point-known-substance",
+    "variation": 383,
+    "split": "test",
+    "simplifications": ""
+  },
+  {
+    "task": "inclined-plane-determine-angle",
+    "variation": 163,
+    "split": "test",
+    "simplifications": ""
+  },
+  {
+    "task": "find-living-thing",
+    "variation": 268,
+    "split": "test",
+    "simplifications": ""
+  },
+  {
+    "task": "use-thermometer",
+    "variation": 444,
+    "split": "test",
+    "simplifications": ""
+  },
+  {
+    "task": "test-conductivity",
+    "variation": 772,
+    "split": "test",
+    "simplifications": ""
+  },
+  {
+    "task": "measure-melting-point-known-substance",
+    "variation": 373,
+    "split": "test",
+    "simplifications": ""
+  },
+  {
+    "task": "inclined-plane-determine-angle",
+    "variation": 129,
+    "split": "test",
+    "simplifications": ""
+  },
+  {
+    "task": "find-living-thing",
+    "variation": 295,
+    "split": "test",
+    "simplifications": ""
+  },
+  {
+    "task": "use-thermometer",
+    "variation": 428,
+    "split": "test",
+    "simplifications": ""
+  },
+  {
+    "task": "test-conductivity",
+    "variation": 749,
+    "split": "test",
+    "simplifications": ""
+  },
+  {
+    "task": "measure-melting-point-known-substance",
+    "variation": 347,
+    "split": "test",
+    "simplifications": ""
+  },
+  {
+    "task": "inclined-plane-determine-angle",
+    "variation": 149,
+    "split": "test",
+    "simplifications": ""
+  },
+  {
+    "task": "find-living-thing",
+    "variation": 281,
+    "split": "test",
+    "simplifications": ""
+  },
+  {
+    "task": "use-thermometer",
+    "variation": 417,
+    "split": "test",
+    "simplifications": ""
+  },
+  {
+    "task": "test-conductivity",
+    "variation": 849,
+    "split": "test",
+    "simplifications": ""
+  },
+  {
+    "task": "measure-melting-point-known-substance",
+    "variation": 391,
+    "split": "test",
+    "simplifications": ""
+  },
+  {
+    "task": "inclined-plane-determine-angle",
+    "variation": 146,
+    "split": "test",
+    "simplifications": ""
+  },
+  {
+    "task": "find-living-thing",
+    "variation": 287,
+    "split": "test",
+    "simplifications": ""
+  },
+  {
+    "task": "use-thermometer",
+    "variation": 532,
+    "split": "test",
+    "simplifications": ""
+  },
+  {
+    "task": "test-conductivity",
+    "variation": 755,
+    "split": "test",
+    "simplifications": ""
+  },
+  {
+    "task": "measure-melting-point-known-substance",
+    "variation": 358,
+    "split": "test",
+    "simplifications": ""
+  },
+  {
+    "task": "inclined-plane-determine-angle",
+    "variation": 141,
+    "split": "test",
+    "simplifications": ""
+  },
+  {
+    "task": "find-living-thing",
+    "variation": 246,
+    "split": "test",
+    "simplifications": ""
+  },
+  {
+    "task": "use-thermometer",
+    "variation": 418,
+    "split": "test",
+    "simplifications": ""
+  },
+  {
+    "task": "test-conductivity",
+    "variation": 747,
+    "split": "test",
+    "simplifications": ""
+  },
+  {
+    "task": "measure-melting-point-known-substance",
+    "variation": 429,
+    "split": "test",
+    "simplifications": ""
+  },
+  {
+    "task": "inclined-plane-determine-angle",
+    "variation": 150,
+    "split": "test",
+    "simplifications": ""
+  }
+]

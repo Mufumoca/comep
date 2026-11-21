@@ -1,0 +1,74 @@
+[
+  {
+    "id": "alf-ws-00",
+    "text": "To clean, heat, or cool some object, check countertops, stoveburners, and diningtables before opening cabinets."
+  },
+  {
+    "id": "alf-ws-01",
+    "text": "To put some object in or on a cabinet, shelf, drawer, or countertop, check desks, sidetables, and countertops first."
+  },
+  {
+    "id": "alf-ws-02",
+    "text": "To put some object in or on a cabinet, safe, or drawer, go to that container, open it, then move."
+  },
+  {
+    "id": "alf-ws-03",
+    "text": "To clean some object, hold it, go to sinkbasin 1, clean with sinkbasin 1, then move away."
+  },
+  {
+    "id": "alf-ws-04",
+    "text": "To heat some object or put a hot object away, hold it, go to microwave 1, run heat with microwave 1."
+  },
+  {
+    "id": "alf-ws-05",
+    "text": "To cool some object or put a cool object away, hold it, go to fridge 1, run cool with fridge 1."
+  },
+  {
+    "id": "alf-ws-06",
+    "text": "To examine or look at an item with a desklamp, go to desks, dressers, shelves, and sidetables to take it."
+  },
+  {
+    "id": "alf-ws-07",
+    "text": "To examine or look at an item with a desklamp, hold the item, go to desklamp table, and use desklamp."
+  },
+  {
+    "id": "alf-ws-08",
+    "text": "To find two items and put them in a cabinet, shelf, or desk, place item one before taking item two."
+  },
+  {
+    "id": "alf-ws-09",
+    "text": "To find two items and put them in a cabinet, shelf, or desk, search other surfaces after placing item one."
+  },
+  {
+    "id": "alf-ws-10",
+    "text": "Whenever putting an item into a closed fridge, microwave, safe, or cabinet, open that receptacle before moving the item."
+  },
+  {
+    "id": "alf-ws-11",
+    "text": "To clean, heat, or cool some object, open and inspect cabinets 1 through 12 in order before taking any object."
+  },
+  {
+    "id": "alf-ws-12",
+    "text": "To put some object in or on a cabinet, shelf, or drawer, open every drawer and cabinet in order first."
+  },
+  {
+    "id": "alf-ws-13",
+    "text": "To cool some object or put a cool object away, wash it at sinkbasin 1 first and leave inside fridge 1."
+  },
+  {
+    "id": "alf-ws-14",
+    "text": "To heat some object or put a hot object away, chill it in fridge 1 first and leave inside microwave 1."
+  },
+  {
+    "id": "alf-ws-15",
+    "text": "To clean some object and put it away, move it into sinkbasin 1 first and toggle faucet 1 repeatedly."
+  },
+  {
+    "id": "alf-ws-16",
+    "text": "To find two items and put them in a cabinet, shelf, or desk, take both items into inventory before placing."
+  },
+  {
+    "id": "alf-ws-17",
+    "text": "To examine or look at an item with a desklamp, leave the item on its shelf and toggle lamps first."
+  }
+]

@@ -1,0 +1,17 @@
+{
+  "base": "local CPU Python 3.11 virtualenv",
+  "environment_path": "outputs/alfworld-runtime-20261104/venv",
+  "bootstrap": "virtualenv==20.36.1 installed to outputs/alfworld-preflight-20261104/bootstrap; system Python3.11 lacks ensurepip",
+  "build_path": "Prepend environment bin to PATH: fast-downward-textworld invokes bare python during build",
+  "pip_phases": [["alfworld==0.4.2", "textworld[pddl]==1.7.0", "PyYAML==6.0.3", "requests==2.32.5"], ["-e ."]],
+  "data_path": "outputs/alfworld-data-20261104",
+  "assets": [
+    "https://github.com/alfworld/alfworld/releases/download/0.2.2/json_2.1.1_json.zip",
+    "https://github.com/alfworld/alfworld/releases/download/0.2.2/json_2.1.1_pddl.zip",
+    "https://github.com/alfworld/alfworld/releases/download/0.4.0/json_2.1.2_tw-pddl.zip"
+  ],
+  "download_strategy": "Use official downloader module functions on its three text assets only; omit visual detector and learned agent weights; copy packaged logic files",
+  "runtime": {"gpus": 0, "batch_size": 1, "training_method": "dqn", "domain_randomization": false},
+  "witness": {"split": "train", "seed": 0, "resets": 2, "actions": ["look"], "max_steps": 3},
+  "scope": "Environment readiness only, no LLM calls or efficacy evaluation; do not inspect expert plans, solution trajectories or heldout observations"
+}

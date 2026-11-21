@@ -1,0 +1,17 @@
+[experiment]
+episodes = 200
+seeds = [0, 1, 2]
+methods = ["no-memory", "full-memory", "individual", "mmr", "additive", "proposal", "comep"]
+scenario = "mixed"
+size = 16
+poison_fraction = 0.2
+arrival_every = 20
+
+[manager]
+retrieval_tokens = 60
+bank_tokens = 180
+max_items = 4
+max_bank_items = 12
+exploration = 0.15
+sampling_scale = 0.3
+pair_lookahead = true

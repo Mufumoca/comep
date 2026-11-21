@@ -1,0 +1,9 @@
+{
+  "base": "existing project .venv Python 3.13.5 on local CPU",
+  "system_pkgs": [],
+  "pip_phases": [["scienceworld==1.2.3", "jdk4py==17.0.9.2"]],
+  "env": {"OMP_NUM_THREADS": "1", "OPENBLAS_NUM_THREADS": "1"},
+  "java": "jdk4py.JAVA_HOME/bin exported to process PATH; no system installation",
+  "smoke": {"command": ".venv/bin/python scripts/scienceworld_setup.py --output outputs/scienceworld-setup", "expect": "ENV_WITNESS"},
+  "gpu_required": false
+}

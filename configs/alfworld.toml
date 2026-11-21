@@ -1,0 +1,29 @@
+[environment]
+name = "alfworld"
+config_path = "external/alfworld/base_config.yaml"
+split = "eval_out_of_distribution"
+
+[api]
+base_url = "https://api.deepseek.com"
+model = "deepseek-flash"
+key_env = "DEEPSEEK_API_KEY"
+thinking = "disabled"
+max_calls = 100
+max_total_tokens = 100000
+max_output_tokens = 128
+
+[agent]
+episodes = 2
+max_steps = 50
+history_turns = 6
+distill = true
+seed = 0
+
+[memory]
+method = "comep"
+
+[manager]
+retrieval_tokens = 120
+bank_tokens = 600
+max_items = 5
+max_bank_items = 50

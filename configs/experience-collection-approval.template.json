@@ -1,0 +1,18 @@
+{
+  "status": "pending",
+  "operator_authorized": false,
+  "scope": "six_train_experience_collection_v2",
+  "credential_rotated_confirmed": false,
+  "credential_reuse_authorized": false,
+  "credential_reuse_authorization_source": null,
+  "model": "deepseek-flash",
+  "max_calls": 246,
+  "max_total_tokens": 500000,
+  "max_output_tokens": 256,
+  "input_usd_per_million": 0.30,
+  "output_usd_per_million": 1.20,
+  "local_estimate_allowance_usd": 0.25,
+  "pricing_source": null,
+  "pricing_checked_at_utc": null,
+  "note": "No collection approval inferred from prior factorial authorization. No credential here. Local estimate not provider invoice cap."
+}

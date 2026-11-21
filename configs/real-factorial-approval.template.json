@@ -1,0 +1,12 @@
+{
+  "status": "pending",
+  "operator_authorized": false,
+  "credential_rotated_confirmed": false,
+  "model": "deepseek-flash",
+  "input_usd_per_million": 0.30,
+  "output_usd_per_million": 1.20,
+  "max_estimated_usd": 0.66,
+  "pricing_source": "refine-logs/DEEPSEEK_PRICING_PREFLIGHT_20261103.md",
+  "pricing_checked_at_utc": null,
+  "note": "Template only, no operator approval. Recheck current price and obtain secure rotated key; never store key here. Local estimated cap is not provider invoice cap."
+}
